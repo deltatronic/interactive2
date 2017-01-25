@@ -5,8 +5,9 @@ background-color: lightblue;
 }
 
 .text {
-      margin: 50px; 
+      margin: 50px auto; 
       width: 800px;
-      padding: 50px;
-      border:1px solid #CCC;
+      text-align: center;
+
+      
     }
