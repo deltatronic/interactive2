@@ -1,0 +1,174 @@
+body {
+	background: #cccccc;
+}
+
+.canvas {
+	width: 900px;
+	height: 556px;
+	margin: 100px auto;
+	background: white;
+	position: relative;
+}
+
+#triangle {
+	border-left: 150px solid transparent;
+	border-right: 150px solid transparent;
+	border-bottom: 250px solid yellow;
+	position: absolute;
+	top: 160px;
+	left: 100px;
+}
+
+#cup {
+	border-bottom: 27px solid #f0f8ff;
+	border-left: 9px solid transparent;
+	border-right: 9px solid transparent;
+	height: 21px;
+	width: 41px;
+	top:390px;
+	left:351px;
+	position:absolute;
+	border-radius: 35%;
+	border-bottom-right-radius: 30%;
+	border-bottom-left-radius: 30%;
+}	
+
+ #cupbase {
+	width: 60px;
+	height: 50px;
+	background: #f0f8ff;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+	top:420px;
+	left:351px;
+	position:absolute;
+}
+
+#cuprec {
+	width: 10px;
+	height: 50px;
+	background: #f0f8ff;
+	top:440px;
+	left:377px;
+	position:absolute;
+}
+
+#cupbottom {
+	border-bottom: 15px solid #f0f8ff;
+	border-left: 15px solid transparent;
+	border-right: 15px solid transparent;
+	height: 0;
+	width: 20px;
+	top: 484px;
+	left: 357px;
+	position: absolute;
+}
+
+#cup2 {
+	border-bottom: 27px solid #f0f8ff;
+	border-left: 9px solid transparent;
+	border-right: 9px solid transparent;
+	height: 21px;
+	width: 41px;
+	top:390px;
+	left:450px;
+	position:absolute;
+	border-radius: 35%;
+	border-bottom-right-radius: 30%;
+	border-bottom-left-radius: 30%;
+}	
+
+ #cupbase2 {
+	width: 60px;
+	height: 50px;
+	background: #f0f8ff;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+	top:420px;
+	left:450px;
+	position:absolute;
+}
+
+#cuprec2 {
+	width: 10px;
+	height: 50px;
+	background: #f0f8ff;
+	top:440px;
+	left:460px;
+	position:absolute;
+}
+
+#cupbottom2 {
+	border-bottom: 15px solid #f0f8ff;
+	border-left: 15px solid transparent;
+	border-right: 15px solid transparent;
+	height: 0;
+	width: 20px;
+	top: 484px;
+	left: 450px;
+	position: absolute;
+}
+#bottletop{
+	height: 100px;
+	width: 28px;
+	border-radius: 10%;
+  	background-color: #3d9970;
+	top: 118px;
+	left: 257px;
+	position: absolute;
+}
+
+#bottlebase {
+	height: 200px;
+	width: 80px;
+	border-radius: 10%;
+  	background-color: #3d9970;
+	top: 270px;
+	left: 230px;
+	position: absolute;
+}
+
+#bottlemiddle {
+	height: 200px;
+	width: 80px;
+	border-radius: 35%;
+  	background-color: #3d9970;
+	top: 220px;
+	left: 230px;
+	position: absolute;
+}
+
+#bottleneck {
+	top: 158px;
+	left: 233px;
+	border-left: 37px solid transparent;
+	border-right: 37px solid transparent;
+	border-bottom: 100px solid #3d9970;
+	position: absolute;
+}
+
+
+
+
+#circle {
+	width: 200px;
+	height: 200px;
+	background: blue;
+	border-radius: 200px;
+	top: 160px;
+	left: 600px;
+	position: absolute;
+}
+
+#mat {
+	border-bottom: 139px solid yellow;
+	border-left: 120px solid transparent;
+	border-right: 120px solid transparent;
+	height: 0px;
+	width: 600px;
+	top:394px;
+	left:28px;
+	position:absolute;
+}
