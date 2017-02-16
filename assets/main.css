@@ -1,13 +1,28 @@
 
-body {width:400;
-			font-family: 'Prompt', sans-serif;
+
+body {width:400px;
 		
-background-color: #808080;
+	 font-family: 'Prompt', sans-serif;
+	 background-image: url(../test.jpg);
+    		background-size: cover;
+
+
 }
 
+h1 {font-size:45px;}
+h2 {font-size:30px;}
+
+
 .text {
-      margin: 50px auto; 
-      width: 800px;
-      text-align: center;
-      
+      margin: auto 0;
+      width: 450px;
+      position:relative;
+      left:180px;
+      text-align: left;
     }
+
+ .container{
+ 	position:relative;
+ 	top:-340px;
+ 	left:550px;
+ }
