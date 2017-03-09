@@ -815,7 +815,8 @@ body {
     position:absolute; 
     left:140px; 
     top:700px;
-   
+    animation-name: g1;
+    animation-duration: 3s;
 }
 
 .G2{
@@ -827,7 +828,8 @@ body {
     position:absolute; 
     left:140px; 
     top:550px;
-     
+    animation-name: g1;
+    animation-duration: 3s;
 }
 
 .G3{
@@ -839,7 +841,8 @@ body {
     position:absolute; 
     left:20px; 
     top:550px;
-    
+    animation-name: g1;
+    animation-duration: 3s;
 
 }
 
@@ -852,6 +855,8 @@ body {
     position:absolute; 
     left:20px; 
     top:550px;
+    animation-name: g1;
+    animation-duration: 3s;
     
   
 }
@@ -899,6 +904,8 @@ body {
     position:absolute; 
     left:220px; 
     top:550px;
+    animation-name: h1;
+    animation-duration: 3s;
      
 }
 
@@ -939,6 +946,8 @@ body {
     position:absolute; 
     left:220px; 
     top:550px;
+    animation-name: h1;
+    animation-duration: 3s;
      
 }
 
@@ -993,6 +1002,7 @@ body {
     opacity:0.5;
     animation-name: j1;
     animation-duration: 3s;
+    
 }
 
 .J2{
