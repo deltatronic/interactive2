@@ -1,671 +1,809 @@
-.A { 
-    position:absolute; 
-    left:0px; 
-    top:0px;
-
-}
-.A1:hover {
-    border-radius: 50px;
-    border: 2px solid #000000;
-    padding: 20px; 
-    width: 130px;
-    height: 10px;  
-    position:absolute; 
-    left:20px; 
-    top:150px;
+body {
+    background-color: white;
 }
 
-.A2:hover {
-    border-radius: 50px;
-    border: 2px solid #000000;
-    padding: 20px; 
-    width: 130px;
-    height: 10px;  
-    position:absolute; 
-    left:20px; 
-    top:225px;
+
+    @keyframes a{
+    0%{
+        transform: rotate(0deg);      
+    }
+
+    50% {
+        transform: rotate(360deg); 
+        background-color: #E18800;  
+    }
+    100%{ background-color: #E18800; 
+        
+    }
 }
 
-.A3:hover {
-    border-radius: 50px;
-    border: 2px solid #000000;
-    padding: 20px; 
-    width: 130px;
-    height: 10px;  
-    position:absolute; 
-    left:20px; 
-    top:300px;
+    @keyframes b{
+    0%{
+        transform: rotate(0deg);      
+    }
+
+    100%{ background-color: #FFE300; 
+        transform: skewX(-20deg);
+        
+    }
+
 }
 
-.A4:hover{
-    border-radius: 25px;
-    border: 2px solid #000000;
-    padding: 20px; 
+@keyframes c{
+    0%{
+        transform: rotate(0deg);      
+    }
+
+    100%{ background-color: #42F942; 
+        transform: skewX(-20deg);
+        width:300px;
+        opacity:0.4;
+        
+    }
+
+}
+
+@keyframes d{
+   0%{
+        transform: rotate(0deg);   
+    }
+
+    50% {
+        transform: scaleY(1.5);
+        background-color:#FC00BB;
+        
+        } 
+
+    80% {
+         transform: rotate(15deg);
+
+         
+    
+    }
+
+}
+
+@keyframes e{
+   0%{
+        transform: rotate(0deg);   
+    }
+
+    50% {
+        width:800px;
+        background-color:#20B2AA;
+        } 
+
+
+}
+
+@keyframes f{
+   0%{
+        transform: rotate(0deg);   
+    }
+
+    50% {
+        transform:scaleX(2.5);
+        background-color:#F0E68C;
+        
+        } 
+
+    80% {
+   
+    
+    }
+
+}
+
+@keyframes g1{
+  
+    50%{ background-color: #01FEE5; 
+        
+    }
+}
+
+@keyframes g6{
+   0%{
+        transform: rotate(0deg);      
+    }
+
+    50% {
+        transform: rotate(60deg);  
+        transform: scaleX(2); 
+        background-color: #01FEE5;  
+    }
+
+    80% {
+        transform: rotate(60deg);
+
+        
+    }
+}
+
+
+@keyframes h1{
+  
+    50%{ background-color:#E501FE;; 
+        
+    }
+}
+
+
+@keyframes h6{
+   0%{
+        transform: rotate(0deg);      
+    }
+
+    50% {
+        transform: rotate(60deg);  
+        transform: scaleY(1.4); 
+        background-color: #E501FE;  
+    }
+
+    80% {
+        transform: rotate(60deg);
+
+        
+    }
+}
+
+@keyframes i1{
+  
+    50%{ background-color: #FE3F05; 
+        
+    }
+}
+
+@keyframes mno{
+    50% {background-color:#F19407;
+    }
+}
+
+@keyframes i{
+   0%{
+        transform: rotate(0deg);      
+    }
+
+    50% {
+        transform: rotate(360deg);  
+       
+        
+    }
+
+    100% {
+        transform: scaleY(1.5); 
+        background-color: #FE3F05; 
+    }
+}
+
+
+
+@keyframes j{
+   0%{
+        transform: rotate(0deg);
+        opacity:0.8;
+      
+    }
+
+    50% { 
+        transform: scaleX(1.3); 
+        background-color: #0078FF;  
+    }
+
+    80% {
+        transform: rotate(40deg); 
+        opacity:0.5;
+    }
+
+    100%{
+        transform: rotate(-90deg); 
+      
+    }
+}
+
+@keyframes j1{
+  
+    50%{ background-color: #002AFF; 
+        
+    }
+}
+
+@keyframes k{
+    0%{
+        transform: rotate(0deg);
+    }
+
+    50%{
+      transform: rotate(1080deg);
+      background-color:#002AFF;
+      opacity:0.5;
+      width: 10px;
+      height: 158px;  
+      position:absolute; 
+      left:648px; 
+      top:393px;
+  }
+
+}
+
+@keyframes l{
+    0%{
+        transform: rotate(0deg);
+    }
+
+    50%{
+      
+      background-color:#002AFF;
+      transform:scaleY(1.2);
+  }
+
+  80%{
+    transform: skewX(-55deg);
+    
+  }
+
+ 
+}
+
+@keyframes p1{
+    0%{
+        transform: rotate(0deg);
+
+    }
+
+    50%{
+      
+      background-color: #1485CC;
+      transform:scaleX(2);
+      opacity:0.5;
+  }
+
+  80%{
+   
+    
+  }
+
+ 
+}
+
+@keyframes p2{
+    0%{
+        transform: rotate(0deg);
+        opacity:0.4;
+    }
+
+    50%{
+      
+      background-color: #1485CC;
+      transform:scaleY(3);
+      opacity:0.2;
+  }
+
+
+ 
+}
+
+@keyframes q1{
+    0%{
+        transform: rotate(0deg);
+
+    }
+
+    50%{
+      
+      background-color: #FFFC19;
+      transform:scaleX(3);
+   
+  }
+
+ 
+}
+
+@keyframes q2{
+    0%{
+        transform: rotate(0deg);
+        opacity:0.4;
+    }
+
+    50%{
+      background-color: #FFFC19;
+      transform:scaleY(2);
+ 
+  }
+
+
+ 
+}
+
+@keyframes r1{
+    0%{
+        transform: rotate(0deg);
+
+    }
+
+    50%{
+      
+      background-color: #FF0000;
+      transform:scaleX(3);
+   
+  }
+
+ 
+}
+
+@keyframes r2{
+    0%{
+        transform: rotate(0deg);
+        opacity:0.4;
+    }
+
+    50%{
+      background-color: #FF0000;
+      transform:scaleY(2);
+ 
+  }
+ 
+}
+
+@keyframes bo{
+    0%{
+        transform: rotate(0deg);
+        transform:scaleY(3);
+    }
+
+    50%{
+        border: 2px solid #000000;
+        background-color:white;
+        opacity: 0.4
+
+    60%{
+        
+       
+    }
+ 
+  }
+ 
+}
+
+  
+
+
+@keyframes one{
+    0%{
+        transform: rotate(0deg);
+
+    }
+
+    50%{
+      
+        background: -webkit-linear-gradient(#FC00BB,#FAF441, #0000C4); /* For Safari 5.1 to 6.0 */
+        background: -o-linear-gradient(#FC00BB,#FAF441, #0000C4); /* For Opera 11.1 to 12.0 */
+        background: -moz-linear-gradient(#FC00BB,#FAF441, #0000C4); /* For Firefox 3.6 to 15 */
+        background: linear-gradient(#FC00BB,#FAF441, #0000C4); /* Standard syntax (must be last) */
+        transform:scaleY(2.5);
+ 
+  }
+ 
+}
+@keyframes y{
+   0%{
+        transform: rotate(0deg);
+        
+        width: 10px;
+         height: 158px;  
+         position:absolute; 
+     left:221px; 
+    top:130px;
+    transform: rotate(30deg);
+      
+    }
+
+    50% { 
+        transform: scaleX(1.3); 
+    }
+
+    80% {
     width: 10px;
     height: 158px;  
     position:absolute; 
-    left:140px; 
-    top:150px;
+    left:221px; 
+    top:130px;
+    transform: rotate(1080deg);      
+    }
 }
 
-.A5:hover{
-    border-radius: 25px;
-    border: 2px solid #000000;
-    padding: 20px; 
-    width: 10px;
-    height: 85px;  
-    position:absolute; 
-    left:20px; 
-    top:225px;
+.bigframe0{
+    position: absolute;
+    top: 50px;
+    left: 50%;
+    margin-left: -730px;
 }
+
+
+.A {  
+    position:absolute;
+    left:380px;
+    top:0px;
+}
+
 
 .A1{
     border-radius: 50px;
+    border: 2px solid #000000;
     padding: 20px; 
     width: 130px;
     height: 10px;  
     position:absolute; 
-    left:20px; 
+    left:0px; 
     top:150px;
-    background-color: #00008B;
-    opacity:0.5;
+    transform-origin: right;
+    animation-name: a;
+    animation-duration: 3s;
 }
 
 .A2{
     border-radius: 50px;
+    border: 2px solid #000000;
     padding: 20px; 
     width: 130px;
     height: 10px;  
     position:absolute; 
-    left:20px; 
+    left:0px; 
     top:225px;
-    background-color: #1E90FF;
-    opacity:0.5;
 }
 
 .A3{
     border-radius: 50px;
+    border: 2px solid #000000;
     padding: 20px; 
     width: 130px;
     height: 10px;  
     position:absolute; 
-    left:20px; 
+    left:0px; 
     top:300px;
-    background-color: #191970;
-    opacity:0.5;
+  
 }
 
 .A4{
     border-radius: 25px;
+    border: 2px solid #000000;
     padding: 20px; 
     width: 10px;
     height: 158px;  
     position:absolute; 
-    left:140px; 
+    left:120px; 
     top:150px;
-    background-color: #B0E0E6;
-    opacity:0.5;
+    
+
 }
 
 .A5{
     border-radius: 25px;
+    border: 2px solid #000000;
     padding: 20px; 
     width: 10px;
     height: 85px;  
     position:absolute; 
-    left:20px; 
-    top:225px;
-    background-color: #40E0D0;
-    opacity:0.5;
-}
-
-.B{
-    position:absolute; 
     left:0px; 
+    top:225px;
+
+}
+
+.B{ position:absolute;
+    left:440px;
     top:0px;
-}
-.B1:hover{
-    border-radius: 25px;
-    border: 2px solid #000000;
-    padding: 20px; 
-    width: 10px;
-    height: 158px;  
-    position:absolute; 
-    left:220px; 
-    top:150px;
 
 }
-
-.B2:hover{
-    border-radius: 25px;
-    border: 2px solid #000000;
-    padding: 20px; 
-    width: 10px;
-    height: 158px;  
-    position:absolute; 
-    left:340px; 
-    top:150px;
-}
-
-.B3:hover{
-    border-radius: 25px;
-    border: 2px solid #000000;
-    padding: 20px; 
-    width: 10px;
-    height: 158px;  
-    position:absolute; 
-    left:220px; 
-    top:0px;
-}
-
-.B4:hover{
-    border-radius: 25px;
-    border: 2px solid #000000;
-    padding: 20px; 
-    width: 130px;
-    height: 10px;  
-    position:absolute; 
-    left:220px; 
-    top:150px;
-}
-
-.B5:hover{
-    border-radius: 25px;
-    border: 2px solid #000000;
-    padding: 20px; 
-    width: 130px;
-    height: 10px;  
-    position:absolute; 
-    left:220px; 
-    top:300px;
-}
-
+ 
 .B1{
     border-radius: 25px;
+    border: 2px solid #000000;
     padding: 20px; 
     width: 10px;
     height: 158px;  
     position:absolute; 
     left:220px; 
     top:150px;
-    background-color: #663399;
-    opacity:0.5;
+   
 }
 
 .B2{
     border-radius: 25px;
+    border: 2px solid #000000;
     padding: 20px; 
     width: 10px;
     height: 158px;  
     position:absolute; 
     left:340px; 
     top:150px;
-    background-color: #8A2BE2;
-    opacity:0.5;
+   
 }
 
 .B3{
     border-radius: 25px;
+    border: 2px solid #000000;
     padding: 20px; 
     width: 10px;
     height: 158px;  
     position:absolute; 
     left:220px; 
     top:0px;
-    background-color: #8A2BE2;
-    opacity:0.5;
+    transform-origin: bottom;
+    animation-name: b;
+    /*animation-delay:3s; */
+    animation-duration: 3s;
 }
 
 .B4{
     border-radius: 25px;
+    border: 2px solid #000000;
     padding: 20px; 
     width: 130px;
     height: 10px;  
     position:absolute; 
     left:220px; 
     top:150px;
-    background-color: #EE82EE;
-    opacity:0.5;
 }
 
 .B5{
     border-radius: 25px;
+    border: 2px solid #000000;
     padding: 20px; 
     width: 130px;
     height: 10px;  
     position:absolute; 
     left:220px; 
     top:300px;
-    background-color: #FF00FF;
-    opacity:0.5;
+   
 }
 
-.C{
-    position:absolute; 
-    left:0px; 
+.C{ position:absolute;
+    left:925px;
     top:0px;
-}
-
-.C1:hover{
-    border-radius: 25px;
-    border: 2px solid #000000;
-    padding: 20px; 
-    width: 10px;
-    height: 158px;  
-    position:absolute; 
-    left:420px; 
-    top:150px;
-}
-
-.C2:hover{
-    border-radius: 25px;
-    border: 2px solid #000000;
-    padding: 20px; 
-    width: 130px;
-    height: 10px;  
-    position:absolute; 
-    left:420px; 
-    top:150px;
-}
-
-.C3:hover{
-    border-radius: 25px;
-    border: 2px solid #000000;
-    padding: 20px; 
-    width: 130px;
-    height: 10px;  
-    position:absolute; 
-    left:420px; 
-    top:300px;
+    
 }
 
 .C1{
     border-radius: 25px;
+    border: 2px solid #000000;
     padding: 20px; 
     width: 10px;
     height: 158px;  
     position:absolute; 
-    left:420px; 
+    left:0px; 
     top:150px;
-    background-color:#C71585;
-    opacity:0.5;
+ 
    
 }
 
 .C2{
     border-radius: 25px;
+    border: 2px solid #000000;
     padding: 20px; 
     width: 130px;
     height: 10px;  
     position:absolute; 
-    left:420px; 
+    left:0px; 
     top:150px;
-    background-color:#FF69B4;
-    opacity:0.5;
-}
+    }
 
 .C3{
     border-radius: 25px;
+    border: 2px solid #000000;
     padding: 20px; 
     width: 130px;
     height: 10px;  
     position:absolute; 
-    left:420px; 
+    left:0px; 
     top:300px;
-    background-color:#FF1493;
-    opacity:0.5;
+    transform-origin: left;
+    animation-name: c;
+    animation-duration: 3s;
     
 
 }
 
 .D{
-    position:absolute; 
-    left:0px; 
+    position:absolute;
+    left:380px;
     top:0px;
-}
-.D1:hover{
-    border-radius: 25px;
-    border: 2px solid #000000;
-    padding: 20px; 
-    width: 10px;
-    height: 158px;  
-    position:absolute; 
-    left:620px; 
-    top:150px;
-}
-
-.D2:hover{
-    border-radius: 25px;
-    border: 2px solid #000000;
-    padding: 20px; 
-    width: 10px;
-    height: 158px;  
-    position:absolute; 
-    left:740px; 
-    top:150px;
-}
-
-.D3:hover{
-    border-radius: 25px;
-    border: 2px solid #000000;
-    padding: 20px; 
-    width: 10px;
-    height: 158px;  
-    position:absolute; 
-    left:740px; 
-    top:0px;
-}
-
-.D4:hover{
-    border-radius: 25px;
-    border: 2px solid #000000;
-    padding: 20px; 
-    width: 130px;
-    height: 10px;  
-    position:absolute; 
-    left:620px; 
-    top:150px;
-}
-
-.D5:hover{
-    border-radius: 25px;
-    border: 2px solid #000000;
-    padding: 20px; 
-    width: 130px;
-    height: 10px;  
-    position:absolute; 
-    left:620px; 
-    top:300px;
+   
 }
 
 .D1{
     border-radius: 25px;
+    border: 2px solid #000000;
     padding: 20px; 
     width: 10px;
     height: 158px;  
     position:absolute; 
-    left:620px; 
+    left:0px; 
     top:150px;
-    background-color:#FF6347;
-    opacity:0.5;
     
 }
 
 .D2{
     border-radius: 25px;
+    border: 2px solid #000000;
     padding: 20px; 
     width: 10px;
     height: 158px;  
     position:absolute; 
-    left:740px; 
+    left:120px; 
     top:150px;
-    background-color:#FF7F50;
-    opacity:0.5;
+  
 }
 
 .D3{
     border-radius: 25px;
+    border: 2px solid #000000;
     padding: 20px; 
     width: 10px;
     height: 158px;  
     position:absolute; 
-    left:740px; 
-    top:0px;
-    background-color:#FF8C00;
-    opacity:0.5;
+    left:120px; 
+    top:3px;
+    transform-origin: bottom;
+    animation-name: d;
+    animation-duration: 3s;
+    opacity:0.8;
 }
 
 .D4{
     border-radius: 25px;
+    border: 2px solid #000000;
     padding: 20px; 
     width: 130px;
     height: 10px;  
     position:absolute; 
-    left:620px; 
+    left:0px; 
     top:150px;
-    background-color:#FFA07A;
-    opacity:0.5;
+
 }
 
 .D5{
     border-radius: 25px;
+    border: 2px solid #000000;
     padding: 20px; 
     width: 130px;
     height: 10px;  
     position:absolute; 
-    left:620px; 
+    left:0px; 
     top:300px;
-    background-color:#FF8C00;
-    opacity:0.5;
 }
 
 .E{
-    position:absolute; 
-    left:0px; 
+    position:absolute;
+    left:-180px;
     top:0px;
-}
-
-.E1:hover {
-    border-radius: 50px;
-    border: 2px solid #000000;
-    padding: 20px; 
-    width: 130px;
-    height: 10px;  
-    position:absolute; 
-    left:840px; 
-    top:150px;
-}
-
-.E2:hover {
-    border-radius: 50px;
-    border: 2px solid #000000;
-    padding: 20px; 
-    width: 130px;
-    height: 10px;  
-    position:absolute; 
-    left:840px; 
-    top:225px;
-}
-
-.E3:hover {
-    border-radius: 50px;
-    border: 2px solid #000000;
-    padding: 20px; 
-    width: 130px;
-    height: 10px;  
-    position:absolute; 
-    left:840px; 
-    top:300px;
-}
-
-.E4:hover{
-    border-radius: 25px;
-    border: 2px solid #000000;
-    padding: 20px; 
-    width: 10px;
-    height: 158px;  
-    position:absolute; 
-    left:840px; 
-    top:150px;
-}
-
-.E5:hover{
-    border-radius: 25px;
-    border: 2px solid #000000;
-    padding: 20px; 
-    width: 10px;
-    height: 85px;  
-    position:absolute; 
-    left:960px; 
-    top:150px;
+   
 }
 
 .E1 {
     border-radius: 50px;
+    border: 2px solid #000000;
     padding: 20px; 
     width: 130px;
     height: 10px;  
     position:absolute; 
     left:840px; 
     top:150px;
-    background-color:#2E8B57;
-    opacity:0.5;
-}
+   }
 
 .E2 {
     border-radius: 50px;
+    border: 2px solid #000000;
     padding: 20px; 
     width: 130px;
     height: 10px;  
     position:absolute; 
     left:840px; 
     top:225px;
-    background-color:#00FF7F;
-    opacity:0.5;
 }
 
 .E3 {
     border-radius: 50px;
+    border: 2px solid #000000;
     padding: 20px; 
     width: 130px;
     height: 10px;  
     position:absolute; 
     left:840px; 
     top:300px;
-    background-color:#20B2AA;
-    opacity:0.5;
+    opacity:0.8;
+    transform-origin: left;
+    animation-name: e;
+    animation-duration: 3s;
 }
 
 .E4{
     border-radius: 25px;
+    border: 2px solid #000000;
     padding: 20px; 
     width: 10px;
     height: 158px;  
     position:absolute; 
     left:840px; 
     top:150px;
-    background-color:#008080;
-    opacity:0.5;
+    
 }
 
 .E5{
     border-radius: 25px;
+    border: 2px solid #000000;
     padding: 20px; 
     width: 10px;
     height: 85px;  
     position:absolute; 
     left:960px; 
     top:150px;
-    background-color:#008B8B;
-    opacity:0.5;
+    
 }
 
 
 
 .F{
-    position:absolute; 
-    left:0px; 
+    position:absolute;
+    left:-125px;
     top:0px;
-}
-
-.F1:hover{
-    border-radius: 25px;
-    border: 2px solid #000000;
-    padding: 20px; 
-    width: 10px;
-    height: 158px;  
-    position:absolute; 
-    left:1100px; 
-    top:150px;
-}
-
-.F2:hover{
-    border-radius: 25px;
-    border: 2px solid #000000;
-    padding: 20px; 
-    width: 10px;
-    height: 158px;  
-    position:absolute; 
-    left:1100px; 
-    top:0px;
-}
-
-.F3:hover{
-    border-radius: 25px;
-    border: 2px solid #000000;
-    padding: 20px; 
-    width: 130px;
-    height: 10px;  
-    position:absolute; 
-    left:1040px; 
-    top:150px;
-}
-
-.F4:hover{
-    border-radius: 25px;
-    border: 2px solid #000000;
-    padding: 20px; 
-    width: 60px;
-    height: 10px;  
-    position:absolute; 
-    left:1100px; 
-    top:0px;
+   
 }
 
 .F1{
     border-radius: 25px;
+    border: 2px solid #000000;
     padding: 20px; 
     width: 10px;
     height: 158px;  
     position:absolute; 
     left:1100px; 
     top:150px;
-    background-color:#DAA520;
-    opacity:0.5;
 }
 
 .F2{
     border-radius: 25px;
+    border: 2px solid #000000;
     padding: 20px; 
     width: 10px;
     height: 158px;  
     position:absolute; 
     left:1100px; 
     top:0px;
-    background-color:#BDB76B;
-    opacity:0.5;
+    
 }
 
 
 .F3{
     border-radius: 25px;
+    border: 2px solid #000000;
     padding: 20px; 
     width: 130px;
     height: 10px;  
     position:absolute; 
-    left:1040px; 
+    left:1040px;  
     top:150px;
-    background-color:#F0E68C;
-    opacity:0.5;
+    opacity:0.8;
+    transform-origin: center;
+    animation-name: f;
+    animation-duration: 3s;
 }
 
 .F4{
     border-radius: 25px;
+    border: 2px solid #000000;
     padding: 20px; 
     width: 60px;
     height: 10px;  
     position:absolute; 
     left:1100px; 
     top:0px;
-    background-color:#FFE4B5;
-    opacity:0.5;
 }
+    
 
 
 .G{
     position:absolute; 
-    left:0px; 
-    top:0px;
+    left:350px; 
+    top:-383px;
 }
 
 .G1{
@@ -677,6 +815,7 @@
     position:absolute; 
     left:140px; 
     top:700px;
+   
 }
 
 .G2{
@@ -688,6 +827,7 @@
     position:absolute; 
     left:140px; 
     top:550px;
+     
 }
 
 .G3{
@@ -699,6 +839,8 @@
     position:absolute; 
     left:20px; 
     top:550px;
+    
+
 }
 
 .G4{
@@ -710,6 +852,8 @@
     position:absolute; 
     left:20px; 
     top:550px;
+    
+  
 }
 
 .G5{
@@ -721,6 +865,8 @@
     position:absolute; 
     left:20px; 
     top:700px;
+    animation-name: g1;
+    animation-duration: 3s;
 }
 
 .G6{
@@ -732,12 +878,16 @@
     position:absolute; 
     left:20px; 
     top:850px;
+    transform-origin: right;
+    animation-name: g6;
+    animation-duration: 3s;
 }
 
 .H{
     position:absolute; 
-    left:0px; 
-    top:0px;
+    left:460px; 
+    top:-383px;
+
 }
 
 .H1{
@@ -749,6 +899,7 @@
     position:absolute; 
     left:220px; 
     top:550px;
+     
 }
 
 .H2{
@@ -760,6 +911,8 @@
     position:absolute; 
     left:340px; 
     top:550px;
+    animation-name: h1;
+    animation-duration: 3s;
 }
 
 .H3{
@@ -771,6 +924,10 @@
     position:absolute; 
     left:220px; 
     top:400px;
+    transform-origin: bottom;
+    animation-name: h6;
+    animation-duration: 3s;
+
 }
 
 .H4{
@@ -782,12 +939,13 @@
     position:absolute; 
     left:220px; 
     top:550px;
+     
 }
 
 .I{
     position:absolute; 
-    left:0px; 
-    top:0px;
+    left:555px; 
+    top:-383px;
 }
 
 .I1{
@@ -799,6 +957,8 @@
     position:absolute; 
     left:420px; 
     top:550px;
+    animation-name: i1;
+    animation-duration: 3s;
 }
 
 
@@ -810,13 +970,15 @@
     height: 60px;  
     position:absolute; 
     left:420px; 
-    top:400px;
+    top:400px; 
+    animation-name: i;
+    animation-duration: 3s;
 }
 
 .J{
     position:absolute; 
-    left:0px; 
-    top:0px;
+    left:488px; 
+    top:-130px;
 }
 
 .J1{
@@ -826,8 +988,11 @@
     width: 10px;
     height: 60px;  
     position:absolute; 
-    left:550px; 
+    left:0px; 
     top:400px;
+    opacity:0.5;
+    animation-name: j1;
+    animation-duration: 3s;
 }
 
 .J2{
@@ -837,8 +1002,11 @@
     width: 10px;
     height: 158px;  
     position:absolute; 
-    left:550px; 
+    left:0px; 
     top:700px;
+    opacity:0.8;
+    animation-name: j1;
+    animation-duration: 3s;
 }
 
 .J3{
@@ -848,8 +1016,12 @@
     width: 10px;
     height: 158px;  
     position:absolute; 
-    left:550px; 
+    left:0px; 
     top:550px;
+    background-color:#002AFF;
+    opacity:0.8;
+    animation-name: j1;
+    animation-duration: 3s;
 }
 
 .J4{
@@ -859,15 +1031,22 @@
     width: 130px;
     height: 10px;  
     position:absolute; 
-    left:430px; 
-    top:850px;
+    left:-122px; 
+    top:848px;
+    transform-origin: right;
+    animation-name: j;
+    animation-duration: 3s;
+    background-color:#002AFF;
+    opacity:0.8;
 }
 
 .K{
     position:absolute; 
-    left:0px; 
-    top:0px;
+    left:35px; 
+    top:-130px;
 }
+
+ 
 
 .K1{
     border-radius: 25px;
@@ -878,6 +1057,11 @@
     position:absolute; 
     left:650px; 
     top:550px;
+    opacity: 0.5;
+    animation-name: j1;
+    animation-duration: 3s;
+
+
 }
 
 .K2{
@@ -889,7 +1073,11 @@
     position:absolute; 
     left:770px; 
     top:550px;
+    animation-name: j1;
+    animation-duration: 3s;
 }
+
+
 
 .K3{
     border-radius: 25px;
@@ -900,6 +1088,10 @@
     position:absolute; 
     left:650px; 
     top:400px;
+    animation-name: j1;
+    animation-duration: 3s;
+   
+
 }
 
 .K4{
@@ -911,6 +1103,10 @@
     position:absolute; 
     left:650px; 
     top:549px;
+    opacity: 0.5;
+    background-color:#002AFF;
+    animation-name: j1;
+    animation-duration: 3s;
 }
 
 .K5{
@@ -920,15 +1116,21 @@
     width: 10px;
     height: 158px;  
     position:absolute; 
-    left:703px; 
-    top:422px;
+    left:630px; 
+    top:393px;
     transform: rotate(45deg);
+    background-color:#002AFF;
+    opacity: 0.8;
+    transform-origin: bottom;
+    animation-name: k;
+    animation-duration: 3s;
+
 }
 
 .L{
     position:absolute; 
-    left:0px; 
-    top:0px;
+    left:113px; 
+    top:-134px;
 }
 
 .L1{
@@ -940,6 +1142,13 @@
     position:absolute; 
     left:875px; 
     top:400px;
+    transform-origin: bottom;
+    animation-name: l;
+    animation-duration: 3s;
+    background-color:#002AFF;
+    opacity: 0.8;
+
+
 }
 
 .L2{
@@ -951,833 +1160,1050 @@
     position:absolute; 
     left:875px; 
     top:550px;
+    opacity: 0.8;
+    animation-name: j1;
+    animation-duration: 3s;
 }
 
 .M{
     position:absolute; 
-    left:0px; 
-    top:0px;
+    left:300px; 
+    top:500px;
 }
 
 .M1{
     border-radius: 25px;
-    border: 2px solid #000000;
     padding: 20px; 
     width: 10px;
     height: 158px;  
     position:absolute; 
     left:20px; 
-    top:1000px;
+    top:0px;
+    background-color: #14B2D6;
+    opacity:0.8;
+    animation-name: mno;
+    animation-duration: 3s;
 }
 
 .M2{
     border-radius: 25px;
-    border: 2px solid #000000;
     padding: 20px; 
     width: 10px;
     height: 158px;  
     position:absolute; 
     left:140px; 
-    top:1000px;
+    top:0px;
+    background-color: #14B2D6;
+    opacity:0.4;
+    animation-name: mno;
+    animation-duration: 3s;
+
 }
 
 .M3{
     border-radius: 25px;
-    border: 2px solid #000000;
     padding: 20px; 
     width: 130px;
     height: 10px;  
     position:absolute; 
     left:20px; 
-    top:1000px;
+    top:0px;
+    background-color: #14B2D6;
+    opacity:0.6;
+    animation-name: mno;
+    animation-duration: 3s;
 }
 
 .M4{
     border-radius: 25px;
-    border: 2px solid #000000;
     padding: 20px; 
     width: 130px;
     height: 10px;  
     position:absolute; 
     left:140px; 
-    top:1000px;
+    top:0px;
+    background-color:#14B2D6;
+    opacity:0.8;
+    animation-name: mno;
+    animation-duration: 3s;
 }
 
 .M5{
     border-radius: 25px;
-    border: 2px solid #000000;
     padding: 20px; 
     width: 10px;
     height: 158px;  
     position:absolute; 
     left:260px; 
-    top:1000px;
+    top:0px;
+    background-color: #14B2D6;
+    opacity:0.8;
+    animation-name: mno;
+    animation-duration: 3s;
+
 }
 
 .N{
     position:absolute; 
-    left:0px; 
-    top:0px;
+    left:325px; 
+    top:500px;
 }
 
 .N1{
     border-radius: 25px;
-    border: 2px solid #000000;
     padding: 20px; 
     width: 10px;
     height: 158px;  
     position:absolute; 
     left:360px; 
-    top:1000px;
+    top:0px;
+    background-color: #14B2D6;
+    opacity:0.8;
+    animation-name: mno;
+    animation-duration: 3s;
 }
 
 .N2{
     border-radius: 25px;
-    border: 2px solid #000000;
     padding: 20px; 
     width: 10px;
     height: 158px;  
     position:absolute; 
     left:480px; 
-    top:1000px;
+    top:0px;
+    background-color: #14B2D6;
+    opacity:0.8;
+    animation-name: mno;
+    animation-duration: 3s;
 }
 
 .N3{
     border-radius: 25px;
-    border: 2px solid #000000;
     padding: 20px; 
     width: 130px;
     height: 10px;  
     position:absolute; 
     left:360px; 
-    top:1000px;
+    top:0px;
+    background-color: #14B2D6;
+    opacity:0.8;
+    animation-name: mno;
+    animation-duration: 3s;
 }
 
 .O{
     position:absolute; 
-    left:0px; 
-    top:0px;
+    left:400px; 
+    top:500px;
 }
 
 .O1{
     border-radius: 25px;
-    border: 2px solid #000000;
     padding: 20px; 
     width: 10px;
     height: 158px;  
     position:absolute; 
     left:550px; 
-    top:1000px;
+    top:0px;
+    background-color: #14B2D6;
+    opacity:0.8;
+    animation-name: mno;
+    animation-duration: 3s;
 }
 
 .O2{
     border-radius: 25px;
-    border: 2px solid #000000;
     padding: 20px; 
     width: 10px;
     height: 158px;  
     position:absolute; 
     left:670px; 
-    top:1000px;
+    top:0px;
+    background-color: #14B2D6;
+    opacity:0.8;
+    animation-name: mno;
+    animation-duration: 3s;
 }
 
 .O3{
     border-radius: 25px;
-    border: 2px solid #000000;
     padding: 20px; 
     width: 130px;
     height: 10px;  
     position:absolute; 
     left:550px; 
-    top:1000px;
+    top:0px;
+    background-color: #14B2D6;
+    opacity:0.8;
+    animation-name: mno;
+    animation-duration: 3s;
 }
 
 .O4{
     border-radius: 25px;
-    border: 2px solid #000000;
     padding: 20px; 
     width: 130px;
     height: 10px;  
     position:absolute; 
     left:550px; 
-    top:1150px;
+    top:150px;
+    background-color: #14B2D6;
+    opacity:0.8;
+    animation-name: mno;
+    animation-duration: 3s;
 }
 
 .P{
     position:absolute; 
-    left:0px; 
-    top:0px;
+    left:-390px; 
+    top:410px;
 }
 
 .P1{
     border-radius: 25px;
-    border: 2px solid #000000;
     padding: 20px; 
     width: 10px;
     height: 158px;  
     position:absolute; 
     left:760px; 
-    top:1000px;
+    top:0px;
+    animation-name: p2;
+    animation-duration: 3s;
+    background-color: #FFFC19;
+    opacity:0.6;
 }
 
 .P2{
     border-radius: 25px;
-    border: 2px solid #000000;
     padding: 20px; 
     width: 10px;
     height: 158px;  
     position:absolute; 
     left:880px; 
-    top:1000px;
+    top:0px;
+    animation-name: p2;
+    animation-duration: 3s;
+    background-color: #FFFC19;
+    opacity:0.6;
 }
 
 .P3{
     border-radius: 25px;
-    border: 2px solid #000000;
     padding: 20px; 
     width: 130px;
     height: 10px;  
     position:absolute; 
     left:760px; 
-    top:1000px;
+    top:0px;
+    animation-name: p1;
+    animation-duration: 3s;
+    background-color: #FFFC19;
+    opacity:0.6;
 }
 
 .P4{
     border-radius: 25px;
-    border: 2px solid #000000;
     padding: 20px; 
     width: 130px;
     height: 10px;  
     position:absolute; 
     left:760px; 
-    top:1150px;
+    top:150px;
+    animation-name: p1;
+    animation-duration: 3s;
+    background-color: #FFFC19;
+    opacity:0.6;
 }
 
 .P5
 {
     border-radius: 25px;
-    border: 2px solid #000000;
     padding: 20px; 
     width: 10px;
     height: 158px;  
     position:absolute; 
     left:760px; 
-    top:1150px;
+    top:150px;
+    animation-name: p2;
+    animation-duration: 3s;
+    background-color: #FFFC19;
+    opacity:0.6;
 }
 
 .Q{
     position:absolute; 
-    left:0px; 
-    top:0px;
+    left:-270px; 
+    top:410px;
 }
 
 .Q1{
     border-radius: 25px;
-    border: 2px solid #000000;
     padding: 20px; 
     width: 10px;
     height: 158px;  
     position:absolute; 
     left:950px; 
-    top:1000px;
+    top:0px;
+    animation-name: q2;
+    animation-duration: 3s;
+    background-color: #FF0000;
+    opacity:0.6;
 }
 
 .Q2{
     border-radius: 25px;
-    border: 2px solid #000000;
     padding: 20px; 
     width: 10px;
     height: 158px;  
     position:absolute; 
     left:1070px; 
-    top:1000px;
+    top:0px;
+    animation-name: q2;
+    animation-duration: 3s;
+    background-color: #FF0000;
+    opacity:0.6;
 }
 
 .Q3{
     border-radius: 25px;
-    border: 2px solid #000000;
     padding: 20px; 
     width: 130px;
     height: 10px;  
     position:absolute; 
     left:950px; 
-    top:1000px;
+    top:0px;
+    animation-name: q2;
+    animation-duration: 3s;
+    background-color: #FF0000;
+    opacity:0.6;
 }
 
 .Q4{
     border-radius: 25px;
-    border: 2px solid #000000;
     padding: 20px; 
     width: 130px;
     height: 10px;  
     position:absolute; 
     left:950px; 
-    top:1150px;
+    top:150px;
+    animation-name: q2;
+    animation-duration: 3s;
+    background-color: #FF0000;
+    opacity:0.6;
 }
 
 .Q5{
     border-radius: 25px;
-    border: 2px solid #000000;
     padding: 20px; 
     width: 10px;
     height: 158px;  
     position:absolute; 
     left:1070px; 
-    top:1150px;
+    top:150px;
+    animation-name: q2;
+    animation-duration: 3s;
+    background-color: #FF0000;
+    opacity:0.6;
 }
 
 .R{
     position:absolute; 
-    left:0px; 
-    top:0px;
+    left:940px; 
+    top:410px;
 }
 
 .R1{
     border-radius: 25px;
-    border: 2px solid #000000;
     padding: 20px; 
     width: 10px;
     height: 158px;  
     position:absolute; 
     left:20px; 
-    top:1550px;
+    top:0px;
+    animation-name: r2;
+    animation-duration: 3s;
+    background-color: #1485CC;
+    opacity:0.6;
 }
 
 .R2{
     border-radius: 25px;
-    border: 2px solid #000000;
     padding: 20px; 
     width: 130px;
     height: 10px;  
     position:absolute; 
     left:20px; 
-    top:1550px;
+    top:0px;
+    animation-name: r1;
+    animation-duration: 3s;
+    background-color: #1485CC;
+    opacity:0.6;
 }
 
 .S { 
     position:absolute; 
-    left:0px; 
-    top:0px;
+    left:145px; 
+    top:600px;
 
 }
 .S1 {
     border-radius: 50px;
-    border: 2px solid #000000;
     padding: 20px; 
     width: 130px;
     height: 10px;  
     position:absolute; 
     left:220px; 
-    top:1550px;
+    top:0px;
+    background-color: #FFFC19;
+    opacity:0.8;
+    animation-name: zoomOutRight;
+    animation-duration: 1.5s;
 }
 
 .S2 {
     border-radius: 50px;
-    border: 2px solid #000000;
     padding: 20px; 
     width: 130px;
     height: 10px;  
     position:absolute; 
     left:220px; 
-    top:1625px;
+    top:75px;
+    background-color: #FF0000;
+    opacity:0.8;
+    animation-name: zoomOutRight;
+    animation-duration: 1.5s;
 }
 
 .S3 {
     border-radius: 50px;
-    border: 2px solid #000000;
     padding: 20px; 
     width: 130px;
     height: 10px;  
     position:absolute; 
     left:220px; 
-    top:1700px;
+    top:150px;
+    background-color: #FFFC19;
+    opacity:0.8;
+    animation-name: zoomOutRight;
+    animation-duration: 1.5s;
 }
 
 .S4{
     border-radius: 25px;
-    border: 2px solid #000000;
     padding: 20px; 
     width: 10px;
     height: 85px;  
     position:absolute; 
     left:340px; 
-    top:1625px;
+    top:75px;
+    background-color: #1485CC;
+    opacity:0.6;
+    animation-name: zoomOutRight;
+    animation-duration: 1.5s;
 }
 
 .S5{
     border-radius: 25px;
-    border: 2px solid #000000;
     padding: 20px; 
     width: 10px;
     height: 85px;  
     position:absolute; 
     left:220px; 
-    top:1550px;
+    top:0px;
+    background-color: #1485CC;
+    opacity:0.6;
+    animation-name: zoomOutRight;
+    animation-duration: 1.5s;
 }
 
 .T { 
     position:absolute; 
-    left:0px; 
-    top:0px;
+    left:260px; 
+    top:450px;
 }
 
 .T1{
     border-radius: 25px;
-    border: 2px solid #000000;
     padding: 20px; 
     width: 10px;
     height: 158px;  
     position:absolute; 
     left:500px; 
-    top:1550px;
+    top:150px;
+    background-color: #FF0000;
+    opacity:0.6;
+    animation-name: zoomInDown;
+    animation-duration: 1.5s;
 }
 
 .T2{
     border-radius: 25px;
-    border: 2px solid #000000;
     padding: 20px; 
     width: 10px;
     height: 158px;  
     position:absolute; 
     left:500px; 
-    top:1400px;
+    top:0px;
+    background-color: #FFFC19;
+    opacity:0.6;
+    animation-name: zoomInDown;
+    animation-duration: 1.5s;
 }
 
 .T3{
     border-radius: 25px;
-    border: 2px solid #000000;
     padding: 20px; 
     width: 130px;
     height: 10px;  
     position:absolute; 
     left:440px; 
-    top:1550px;
+    top:150px;
+    background-color: #1485CC;
+    opacity:0.6;
+    animation-name: zoomInDown;
+    animation-duration: 1.5s;
 }
 
 .U{
     position:absolute; 
-    left:0px; 
-    top:0px;
+    left:330px; 
+    top:600px;
+
 }
 
 .U1{
     border-radius: 25px;
-    border: 2px solid #000000;
     padding: 20px; 
     width: 10px;
     height: 158px;  
     position:absolute; 
     left:650px; 
-    top:1550px;
+    top:0px;
+    background-color: #FF0000;
+    opacity:0.6;
+    animation-name: zoomOutLeft;
+    animation-duration: 1.5s;
 }
 
 .U2{
     border-radius: 25px;
-    border: 2px solid #000000;
     padding: 20px; 
     width: 10px;
     height: 158px;  
     position:absolute; 
     left:770px; 
-    top:1550px;
+    top:0px;
+    background-color: #1485CC;
+    opacity:0.6;
+    animation-name: zoomOutLeft;
+    animation-duration: 1.5s;
 }
 
 
 .U3{
     border-radius: 25px;
-    border: 2px solid #000000;
     padding: 20px; 
     width: 130px;
     height: 10px;  
     position:absolute; 
     left:650px; 
-    top:1700px;
+    top:150px;
+    background-color: #FFFC19;
+    opacity:0.6;
+    animation-name: zoomOutLeft;
+    animation-duration: 1.5s;
 }
 
 .V{
     position:absolute; 
-    left:0px; 
-    top:0px;
+    left:385px; 
+    top:580px;
 }
 
 .V1{
     border-radius: 25px;
-    border: 2px solid #000000;
     padding: 20px; 
     width: 10px;
     height: 158px;  
     position:absolute; 
-    left:950px; 
-    top:1550px;
+    left:75px; 
+    top:0px;
     transform: rotate(30deg);
+    background-color: #928EFF;
+    opacity:0.8;
+    animation-name: rotateIn;
+    animation-duration: 1.5s;
 }
 
 .V2{
     border-radius: 25px;
-    border: 2px solid #000000;
     padding: 20px; 
     width: 10px;
     height: 158px;  
     position:absolute; 
-    left:875px; 
-    top:1550px;
+    left:0px; 
+    top:0px;
     transform: rotate(-30deg);
+    background-color: #7CFFB5;
+    opacity:0.8;
+    animation-name: rotateIn;
+    animation-duration: 1.5s;
+}
+
+.W{
+    position:absolute; 
+    left:648px; 
+    top:580px;
 }
 
 .W1{
     border-radius: 25px;
-    border: 2px solid #000000;
     padding: 20px; 
     width: 10px;
     height: 158px;  
     position:absolute; 
-    left:1175px; 
-    top:1550px;
+    left:75px; 
+    top:0px;
     transform: rotate(30deg);
+    background-color: #7CFFB5;
+    opacity:0.8;
+    animation-name: rotateIn;
+    animation-duration: 1.5s;
 }
 
 .W2{
     border-radius: 25px;
-    border: 2px solid #000000;
     padding: 20px; 
     width: 10px;
     height: 158px;  
     position:absolute; 
-    left:1100px; 
-    top:1550px;
+    left:0px; 
+    top:0px;
     transform: rotate(-30deg);
+    background-color: #928EFF;
+    opacity:0.8;
+    animation-name: rotateIn;
+    animation-duration: 1.5s;
 }
 
 .W3{
     border-radius: 25px;
-    border: 2px solid #000000;
     padding: 20px; 
     width: 10px;
     height: 158px;  
     position:absolute; 
-    left:1325px; 
-    top:1550px;
+    left:225px; 
+    top:0px;
     transform: rotate(30deg);
+    background-color: #7CFFB5;
+    opacity:0.8;
+    animation-name: rotateIn;
+    animation-duration: 1.5s;
 }
 
 .W4{
     border-radius: 25px;
-    border: 2px solid #000000;
     padding: 20px; 
     width: 10px;
     height: 158px;  
     position:absolute; 
-    left:1250px; 
-    top:1550px;
+    left:150px; 
+    top:0px;
     transform: rotate(-30deg);
+    background-color: #928EFF;
+    opacity:0.8;
+    animation-name: rotateIn;
+    animation-duration: 1.5s;
 }
 
 .X{
     position:absolute; 
-    left:0px; 
-    top:0px;
+    left:1045px; 
+    top:580px;
 }
 
 .X1{
     border-radius: 25px;
-    border: 2px solid #000000;
     padding: 20px; 
     width: 10px;
     height: 158px;  
     position:absolute; 
-    left:60px; 
-    top:1850px;
+    left:0px; 
+    top:0px;
     transform: rotate(35deg);
+    background-color: #928EFF;
+    opacity:0.8;
+    animation-name: rotateIn;
+    animation-duration: 1.5s;
 }
 
 .X2{
     border-radius: 25px;
-    border: 2px solid #000000;
     padding: 20px; 
     width: 10px;
     height: 158px;  
     position:absolute; 
-    left:60px; 
-    top:1850px;
+    left:0px; 
+    top:0px;
     transform: rotate(-35deg);
+    background-color: #7CFFB5;
+    opacity:0.8;
+    animation-name: rotateIn;
+    animation-delay: .2s;
+    animation-duration: 1.5s;   
 }
 
 .Y{
     position:absolute;
-    left:0px;
-    top:0px;
+    left:150px;
+    top:460px;
 }
 
 .Y1{
     border-radius: 25px;
-    border: 2px solid #000000;
     padding: 20px; 
     width: 10px;
     height: 158px;  
     position:absolute; 
     left:295px; 
-    top:1850px;
+    top:0px;
     transform: rotate(30deg);
+    background-color: #FAF441;
+    opacity:0.6;
+    animation-name: bounceOutDown;
+    animation-duration: 1.5s;
+    animation-delay: .2s
 }
 
 .Y2{
     border-radius: 25px;
-    border: 2px solid #000000;
     padding: 20px; 
     width: 10px;
     height: 158px;  
     position:absolute; 
     left:220px; 
-    top:1850px;
+    top:0px;
     transform: rotate(-30deg);
+    background-color: #FC00BB;
+    opacity:0.6;
+    animation-name: bounceOutDown;
+    animation-duration: 1.5s;
+    animation-delay: .2s
 }
 
 .Y3{
     border-radius: 25px;
-    border: 2px solid #000000;
     padding: 20px; 
     width: 10px;
     height: 158px;  
     position:absolute; 
     left:221px; 
-    top:1980px;
+    top:130px;
     transform: rotate(30deg);
+    background-color: #0000C4;
+    opacity:0.6;
+    animation-name: bounceOutDown;
+    animation-duration: 1.5s;
+    animation-delay: .2s
 }
 
 .Z{
     position:absolute;
-    left:0px;
-    top:0px;
+    left:275px;
+    top:460px;
+
 }
 
 .Z1 {
-    border-radius: 50px;
-    border: 2px solid #000000;
+    border-radius: 50px;        
     padding: 20px; 
     width: 130px;
     height: 10px;  
     position:absolute; 
     left:420px; 
-    top:1830px;
+    top:0px;
+    background-color: #FAF441;
+    opacity:0.6;
+    animation-name: bounceOutDown;
+    animation-duration: 1.5s;
+    animation-delay: .2s
+
 }
 
 .Z2 {
     border-radius: 50px;
-    border: 2px solid #000000;
     padding: 20px; 
     width: 130px;
     height: 10px;  
     position:absolute; 
     left:420px; 
-    top:1905px;
+    top:75px;
+    background-color: #FAF441;
+    opacity:0.6;
+    animation-name: bounceOutDown;
+    animation-duration: 1.5s;
+    animation-delay: .2s
 }
 
 .Z3 {
     border-radius: 50px;
-    border: 2px solid #000000;
     padding: 20px; 
     width: 130px;
     height: 10px;  
     position:absolute; 
     left:420px; 
-    top:1980px;
+    top:150px;
+    background-color: #0000C4;
+    opacity:0.6;
+    animation-name: bounceOutDown;
+    animation-duration: 1.5s;
+    animation-delay: .2s
 }
 
 .Z4{
     border-radius: 25px;
-    border: 2px solid #000000;
     padding: 20px; 
     width: 10px;
     height: 85px;  
     position:absolute; 
     left:540px; 
-    top:1830px;
+    top:0px;
+    background-color: #0000C4;
+    opacity:0.6;
+    animation-name: bounceOutDown;
+    animation-duration: 1.5s;
+    animation-delay: .2s
 }
 
 .Z5{
     border-radius: 25px;
-    border: 2px solid #000000;
     padding: 20px; 
     width: 10px;
     height: 85px;  
     position:absolute; 
     left:420px; 
-    top:1905px;
+    top:75px;
+    background-color: #FC00BB;;
+    opacity:0.6;
+    animation-name: bounceOutDown;
+    animation-duration: 1.5s;
+    animation-delay: .2s
 }
 
 .one{
     position:absolute;
-    left:0px;
-    top:0px;
+    left:1050px;
+    top:460px;
 }
 
-.one{
+.one1{
     border-radius: 25px;
     border: 2px solid #000000;
     padding: 20px; 
     width: 10px;
     height: 158px;  
     position:absolute; 
-    left:20px; 
-    top:2250px;
+    left:0px; 
+    top:0px;
+    animation-name: one;
+    animation-duration: 1.5s;
+    animation-delay: .2s
+    height: 200px;
 }
 
 .two{
     position:absolute;
-    left:0px;
-    top:0px;
+    left:250px;
+    top:435px;
 }
 
 .two1 {
     border-radius: 50px;
-    border: 2px solid #000000;
     padding: 20px; 
     width: 130px;
     height: 10px;  
     position:absolute; 
     left:100px; 
     top:0px;
+    background-color: #1291AE;
+    opacity: 0.8;
+    animation-name: bo;
+    animation-duration: 3s;
 }
 
 .two2 {
     border-radius: 50px;
-    border: 2px solid #000000;
     padding: 20px; 
     width: 130px;
     height: 10px;  
     position:absolute; 
     left:100px; 
     top:75px;
+    background-color: #E18800;
+    opacity: 0.8;
+    animation-name: bo;
+    animation-duration: 3s;
 }
 
 .two3 {
     border-radius: 50px;
-    border: 2px solid #000000;
     padding: 20px; 
     width: 130px;
     height: 10px;  
     position:absolute; 
     left:100px; 
     top:150px;
+    background-color: #1291AE;
+    opacity: 0.8;
+    animation-name: bo;
+    animation-duration: 3s;
 }
 
 .two4{
     border-radius: 25px;
-    border: 2px solid #000000;
     padding: 20px; 
     width: 10px;
     height: 85px;  
     position:absolute; 
     left:220px; 
     top:0px;
+    background-color: #DC3729;
+    opacity: 0.7;
+    animation-name: bo;
+    animation-duration: 3s;
+
 }
 
 .two5{
     border-radius: 25px;
-    border: 2px solid #000000;
     padding: 20px; 
     width: 10px;
     height: 85px;  
     position:absolute; 
     left:100px; 
     top:75px;
+    background-color: #DC3729;
+    opacity: 0.7;
+    animation-name: bo;
+    animation-duration: 3s;
 }
 
 .three{
     position:absolute;
-    left:0px;
-    top:0px;
+    left:400px;
+    top:435px;
 }
 
 .three1 {
     border-radius: 50px;
-    border: 2px solid #000000;
     padding: 20px; 
     width: 130px;
     height: 10px;  
     position:absolute; 
     left:300px; 
     top:0px;
+    background-color: #DC3729;
+    opacity: 0.8;
+    animation-name: bo;
+    animation-duration: 3s;
 }
 
 .three2 {
     border-radius: 50px;
-    border: 2px solid #000000;
     padding: 20px; 
     width: 130px;
     height: 10px;  
     position:absolute; 
     left:300px; 
     top:75px;
+    background-color: #1291AE;
+    opacity: 0.8;
+    animation-name: bo;
+    animation-duration: 3s;
 }
 
 .three3 {
     border-radius: 50px;
-    border: 2px solid #000000;
     padding: 20px; 
     width: 130px;
     height: 10px;  
     position:absolute; 
     left:300px; 
     top:150px;
+    background-color: #E18800;
+    opacity: 0.8;
+    animation-name: bo;
+    animation-duration: 3s;
 }
 
 .three4{
     border-radius: 25px;
-    border: 2px solid #000000;
     padding: 20px; 
     width: 10px;
     height: 158px;  
     position:absolute; 
     left:420px; 
     top:0px;
+    background-color: #DC3729;
+    opacity:0.6;
+    animation-name: bo;
+    animation-duration: 3s;
 }
 
 .four{
     position:absolute;
-    left:0px;
-    top:0px;
+    left:500px;
+    top:435px;
 }
 
 
 .four1 {
     border-radius: 50px;
-    border: 2px solid #000000;
     padding: 20px; 
     width: 130px;
     height: 10px;  
     position:absolute; 
     left:500px; 
     top:75px;
+    background-color: #DC3729;
+    opacity:0.8;
+    animation-name: bo;
+    animation-duration: 3s;
 }
 
 
 .four2{
     border-radius: 25px;
-    border: 2px solid #000000;
     padding: 20px; 
     width: 10px;
     height: 158px;  
     position:absolute; 
     left:620px; 
     top:0px;
+    background-color: #E18800;
+    opacity: 0.8;
+    animation-name: bo;
+    animation-duration: 3s;
 }
 
 .four3{
     border-radius: 25px;
-    border: 2px solid #000000;
     padding: 20px; 
     width: 10px;
     height: 85px;  
     position:absolute; 
     left:500px; 
     top:0px;
+    background-color: #1291AE;
+    opacity: 0.8;
+    animation-name: bo;
+    animation-duration: 3s;
 }
 
 .five{
     position:absolute;
-    left:0px;
-    top:0px;
+    left:350px;
+    top:340px;
 }
 
 .five1 {
@@ -1787,8 +2213,13 @@
     width: 130px;
     height: 10px;  
     position:absolute; 
-    left:720px; 
+    left:0px; 
     top:0px;
+    background: linear-gradient(0deg, #FC4047,#FF50A0,#127CB6 ); 
+    opacity: 0.6;
+    animation-name: rotateOut;
+    animation-duration: 3s;
+
 }
 
 .five2 {
@@ -1798,8 +2229,12 @@
     width: 130px;
     height: 10px;  
     position:absolute; 
-    left:720px; 
+    left:0px; 
     top:75px;
+    background: linear-gradient(0deg, #FC4047,#FF50A0,#127CB6 ); 
+    opacity: 0.6;
+    animation-name: rotateOut;
+    animation-duration: 3s;
 }
 
 .five3 {
@@ -1809,8 +2244,12 @@
     width: 130px;
     height: 10px;  
     position:absolute; 
-    left:720px; 
+    left:0px; 
     top:150px;
+    background: linear-gradient(0deg, #FC4047,#FF50A0,#127CB6 ); 
+    opacity: 0.6;
+    animation-name: rotateOut;
+    animation-duration: 3s;
 }
 
 .five4{
@@ -1820,8 +2259,12 @@
     width: 10px;
     height: 85px;  
     position:absolute; 
-    left:840px; 
+    left:120px; 
     top:75px;
+    background: linear-gradient(0deg, #FC4047,#FF50A0,#127CB6 ); 
+    opacity: 0.6;
+    animation-name: rotateOut;
+    animation-duration: 3s;
 }
 
 .five5{
@@ -1831,14 +2274,18 @@
     width: 10px;
     height: 85px;  
     position:absolute; 
-    left:720px; 
+    left:0px; 
     top:0px;
+    background: linear-gradient(0deg, #FC4047,#FF50A0,#127CB6 ); 
+    opacity: 0.6;
+    animation-name: rotateOut;
+    animation-duration: 3s;
 }
 
 .six{
     position:absolute;
-    left:0px;
-    top:0px;
+    left:700px;
+    top:340px;
 }
 
 .six1 {
@@ -1848,8 +2295,12 @@
     width: 130px;
     height: 10px;  
     position:absolute; 
-    left:920px; 
+    left:0px; 
     top:0px;
+    background: linear-gradient(0deg, #FC4047,#FF50A0,#127CB6 ); 
+    opacity: 0.6;
+    animation-name: rotateOut;
+    animation-duration: 3s;
 }
 
 .six2 {
@@ -1859,8 +2310,12 @@
     width: 130px;
     height: 10px;  
     position:absolute; 
-    left:920px; 
+    left:0px; 
     top:75px;
+    background: linear-gradient(0deg, #FC4047,#FF50A0,#127CB6 );
+    opacity: 0.6;
+    animation-name: rotateOut;
+    animation-duration: 3s; 
 }
 
 .six3 {
@@ -1870,8 +2325,12 @@
     width: 130px;
     height: 10px;  
     position:absolute; 
-    left:920px; 
+    left:0px; 
     top:150px;
+    background: linear-gradient(0deg, #FC4047,#FF50A0,#127CB6 );
+    opacity: 0.6; 
+    animation-name: rotateOut;
+    animation-duration: 3s;
 }
 
 .six4{
@@ -1881,8 +2340,12 @@
     width: 10px;
     height: 85px;  
     position:absolute; 
-    left:1040px; 
+    left:120px; 
     top:75px;
+    background: linear-gradient(0deg, #FC4047,#FF50A0,#127CB6 );
+    opacity: 0.6; 
+    animation-name: rotateOut;
+    animation-duration: 3s;
 }
 
 .six5{
@@ -1892,14 +2355,18 @@
     width: 10px;
     height: 158px;  
     position:absolute; 
-    left:920px; 
+    left:0px; 
     top:0px;
+    background: linear-gradient(0deg, #FC4047,#FF50A0,#127CB6 );
+    opacity: 0.6; 
+    animation-name: rotateOut;
+    animation-duration: 3s;
 }
 
 .seven{
     position:absolute;
-    left:0px;
-    top:0px;
+    left:1000px;
+    top:340px;
 }
 
 .seven1 {
@@ -1909,8 +2376,12 @@
     width: 130px;
     height: 10px;  
     position:absolute; 
-    left:1120px; 
+    left:0px; 
     top:0px;
+    background: linear-gradient(0deg, #FC4047,#FF50A0,#127CB6 );
+    opacity: 0.6; 
+    animation-name: rotateOut;
+    animation-duration: 3s;
 }
 
 .seven2{
@@ -1920,14 +2391,18 @@
     width: 10px;
     height: 158px;  
     position:absolute; 
-    left:1240px; 
+    left:120px; 
     top:0px;
+    background: linear-gradient(0deg, #FC4047,#FF50A0,#127CB6 );
+    opacity: 0.6; 
+    animation-name: rotateOut;
+    animation-duration: 3s;
 }
 
 .eight{
     position:absolute;
-    left:0px;
-    top:0px;
+    left:330px;
+    top:100px;
 }
 
 .eight1 {
@@ -1938,7 +2413,12 @@
     height: 10px;  
     position:absolute; 
     left:20px; 
-    top:300px;
+    top:0px;
+    background-color: gray;
+background-image: repeating-linear-gradient(45deg, transparent, transparent 35px, rgba(255,255,255,.5) 35px, rgba(255,255,255,.5) 70px);
+opacity: 0.8;
+animation-name: flip;
+    animation-duration: 3s;
 }
 
 .eight2 {
@@ -1949,7 +2429,12 @@
     height: 10px;  
     position:absolute; 
     left:20px; 
-    top:375px;
+    top:75px;
+    background-color: gray;
+background-image: repeating-linear-gradient(45deg, transparent, transparent 35px, rgba(255,255,255,.5) 35px, rgba(255,255,255,.5) 70px);
+opacity: 0.8;
+animation-name: flip;
+    animation-duration: 3s;
 }
 
 .eight3 {
@@ -1960,7 +2445,12 @@
     height: 10px;  
     position:absolute; 
     left:20px; 
-    top:450px;
+    top:150px;
+    background-color: gray;
+    background-image: repeating-linear-gradient(45deg, transparent, transparent 35px, rgba(255,255,255,.5) 35px, rgba(255,255,255,.5) 70px);
+opacity: 0.8;
+animation-name: flip;
+    animation-duration: 3s;
 }
 
 .eight4{
@@ -1971,7 +2461,12 @@
     height: 158px;  
     position:absolute; 
     left:140px; 
-    top:300px;
+    top:0px;
+    background-color: gray;
+    background-image: repeating-linear-gradient(45deg, transparent, transparent 35px, rgba(255,255,255,.5) 35px, rgba(255,255,255,.5) 70px);
+opacity: 0.8;
+animation-name: fadeOutUpBig;
+    animation-duration: 3s;
 }
 
 .eight5{
@@ -1982,13 +2477,18 @@
     height: 158px;  
     position:absolute; 
     left:20px; 
-    top:300px;
+    top:0px;
+    background-color: gray;
+    background-image: repeating-linear-gradient(45deg, transparent, transparent 35px, rgba(255,255,255,.5) 35px, rgba(255,255,255,.5) 70px);
+opacity: 0.8;
+animation-name: fadeOutUpBig;
+    animation-duration: 3s;
 }
 
 .nine{
     position:absolute;
-    left:0px;
-    top:0px;
+    left:480px;
+    top:100px;
 }
 
 .nine1 {
@@ -1999,7 +2499,13 @@
     height: 10px;  
     position:absolute; 
     left:220px; 
-    top:300px;
+    top:0px;
+    background-color: gray;
+background-image: linear-gradient(90deg, transparent 50%, rgba(255,255,255,.5) 50%);
+background-size: 50px 50px;
+opacity: 0.8;
+animation-name: flip;
+    animation-duration: 3s;
 }
 
 .nine2 {
@@ -2010,7 +2516,13 @@
     height: 10px;  
     position:absolute; 
     left:220px; 
-    top:375px;
+    top:75px;
+    background-color: gray;
+background-image: linear-gradient(90deg, transparent 50%, rgba(255,255,255,.5) 50%);
+background-size: 50px 50px;
+opacity: 0.8;
+animation-name: flip;
+    animation-duration: 3s;
 }
 
 .nine3 {
@@ -2021,7 +2533,13 @@
     height: 10px;  
     position:absolute; 
     left:220px; 
-    top:450px;
+    top:150px;
+    background-color: gray;
+background-image: linear-gradient(90deg, transparent 50%, rgba(255,255,255,.5) 50%);
+background-size: 50px 50px;
+opacity: 0.8;
+animation-name: flip;
+    animation-duration: 3s;
 }
 
 .nine4{
@@ -2032,7 +2550,13 @@
     height: 158px;  
     position:absolute; 
     left:340px; 
-    top:300px;
+    top:0px;
+    background-color: gray;
+background-image: linear-gradient(90deg, transparent 50%, rgba(255,255,255,.5) 50%);
+background-size: 50px 50px;
+opacity: 0.8;
+animation-name: fadeOutUpBig;
+    animation-duration: 3s;
 }
 
 .nine5{
@@ -2043,13 +2567,19 @@
     height: 85px;  
     position:absolute; 
     left:220px; 
-    top:300px;
+    top:0px;
+    background-color: gray;
+background-image: linear-gradient(90deg, transparent 50%, rgba(255,255,255,.5) 50%);
+background-size: 50px 50px;
+opacity: 0.8;
+animation-name: fadeOutUpBig;
+    animation-duration: 3s;
 }
 
 .zero{
     position:absolute;
-    left:0px;
-    top:0px;
+    left:580px;
+    top:100px;
 }
 
 .zero1 {
@@ -2060,10 +2590,16 @@
     height: 10px;  
     position:absolute; 
     left:420px; 
-    top:300px;
+    top:0px;
+    background-color: gray;
+background-image: linear-gradient(transparent 50%, rgba(255,255,255,.5) 50%);
+background-size: 50px 50px;
+opacity: 0.8;
+animation-name: flip;
+    animation-duration: 3s;
 }
 
-.zero3 {
+.zero2 {
     border-radius: 50px;
     border: 2px solid #000000;
     padding: 20px; 
@@ -2071,7 +2607,30 @@
     height: 10px;  
     position:absolute; 
     left:420px; 
-    top:450px;
+    top:150px;
+    background-color: gray;
+background-image: linear-gradient(transparent 50%, rgba(255,255,255,.5) 50%);
+background-size: 50px 50px;
+opacity: 0.8;
+animation-name: flip;
+    animation-duration: 3s;
+}
+
+.zero3{
+    border-radius: 25px;
+    border: 2px solid #000000;
+    padding: 20px; 
+    width: 10px;
+    height: 158px;  
+    position:absolute; 
+    left:540px; 
+    top:0px;
+    background-color: gray;
+background-image: linear-gradient(transparent 50%, rgba(255,255,255,.5) 50%);
+background-size: 50px 50px;
+opacity: 0.8;
+animation-name: fadeOutUpBig;
+    animation-duration: 3s;
 }
 
 .zero4{
@@ -2081,18 +2640,440 @@
     width: 10px;
     height: 158px;  
     position:absolute; 
-    left:540px; 
-    top:300px;
+    left:420px; 
+    top:0px;
+    background-color: gray;
+background-image: linear-gradient(transparent 50%, rgba(255,255,255,.5) 50%);
+background-size: 50px 50px;
+opacity: 0.8;
+animation-name: fadeOutUpBig;
+    animation-duration: 3s;
 }
 
-.zero5{
+
+.dot{
+    position:absolute;
+    left:400px;
+    top:100px;
+}
+
+.dot1{
+    border-radius: 25px;
+    border: 2px solid #000000;
+    padding: 20px; 
+    width: 10px;
+    height: 30px;  
+    position:absolute; 
+    left:0px; 
+    top:0px;
+    background:
+radial-gradient(black 15%, transparent 16%) 0 0,
+radial-gradient(black 15%, transparent 16%) 8px 8px,
+radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 0 1px,
+radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 8px 9px;
+background-color:#282828;
+background-size:16px 16px;
+animation-name: rotateOut;
+    animation-duration: 3s;
+}
+
+.comma{
+    position:absolute;
+    left:740px;
+    top:100px;
+
+}
+
+.comma1{
+    border-radius: 25px;
+    border: 2px solid #000000;
+    padding: 20px; 
+    width: 50px;
+    height: 10px;  
+    position:absolute; 
+    left:0px; 
+    top:0px;
+    background:
+linear-gradient(27deg, #151515 5px, transparent 5px) 0 5px,
+linear-gradient(207deg, #151515 5px, transparent 5px) 10px 0px,
+linear-gradient(27deg, #222 5px, transparent 5px) 0px 10px,
+linear-gradient(207deg, #222 5px, transparent 5px) 10px 5px,
+linear-gradient(90deg, #1b1b1b 10px, transparent 10px),
+linear-gradient(#1d1d1d 25%, #1a1a1a 25%, #1a1a1a 50%, transparent 50%, transparent 75%, #242424 75%, #242424);
+background-color: #131313;
+background-size: 20px 20px;
+opacity: 0.6;
+    }
+
+.comma2{
+    border-radius: 25px;
+    border: 2px solid #000000;
+    padding: 20px; 
+    width: 10px;
+    height: 30px;  
+    position:absolute; 
+    left:40px; 
+    top:0px;
+opacity: 0.9;
+background:
+linear-gradient(27deg, #151515 5px, transparent 5px) 0 5px,
+linear-gradient(207deg, #151515 5px, transparent 5px) 10px 0px,
+linear-gradient(27deg, #222 5px, transparent 5px) 0px 10px,
+linear-gradient(207deg, #222 5px, transparent 5px) 10px 5px,
+linear-gradient(90deg, #1b1b1b 10px, transparent 10px),
+linear-gradient(#1d1d1d 25%, #1a1a1a 25%, #1a1a1a 50%, transparent 50%, transparent 75%, #242424 75%, #242424);
+background-color: #131313;
+background-size: 20px 20px;
+animation-name: hinge;
+    animation-duration: 3s;
+}
+
+.question{
+    position:absolute;
+    left:1000px;
+    top:-120px;
+}
+
+.question1{
     border-radius: 25px;
     border: 2px solid #000000;
     padding: 20px; 
     width: 10px;
     height: 158px;  
     position:absolute; 
-    left:420px; 
-    top:300px;
+    left:120px; 
+    top:0px;
+    background-color:#001;
+background-image: radial-gradient(white 15%, transparent 16%),
+radial-gradient(white 15%, transparent 16%);
+background-size:60px 60px;
+background-position: 0 0, 30px 30px;
+opacity: 0.5;
+animation-name: slideInLeft;
+    animation-duration: 3s;
 }
 
+
+.question2{
+    border-radius: 25px;
+    border: 2px solid #000000;
+    padding: 20px; 
+    width: 10px;
+    height: 60px;  
+    position:absolute; 
+    left:0px; 
+    top:0px;
+    background-color:#001;
+background-image: radial-gradient(white 15%, transparent 16%),
+radial-gradient(white 15%, transparent 16%);
+background-size:60px 60px;
+background-position: 0 0, 30px 30px;
+opacity: 0.5;
+animation-name: slideInRight;
+    animation-duration: 3s;
+}
+
+.question3 {
+    border-radius: 50px;
+    border: 2px solid #000000;
+    padding: 20px; 
+    width: 130px;
+    height: 10px;  
+    position:absolute; 
+    left:0px; 
+    top:0px;
+    background-color:#001;
+background-image: radial-gradient(white 15%, transparent 16%),
+radial-gradient(white 15%, transparent 16%);
+background-size:60px 60px;
+background-position: 0 0, 30px 30px;
+opacity: 0.9;
+animation-name: slideInUp;
+    animation-duration: 3s;
+}
+
+.question4{
+    border-radius: 25px;
+    border: 2px solid #000000;
+    padding: 20px; 
+    width: 10px;
+    height: 30px;  
+    position:absolute; 
+    left:120px; 
+    top:220px;
+   background-color:#001;
+background-image: radial-gradient(white 15%, transparent 16%),
+radial-gradient(white 15%, transparent 16%);
+background-size:60px 60px;
+background-position: 0 0, 30px 30px;
+opacity: 0.9;
+animation-name: slideInDown;
+    animation-duration: 3s;
+}
+
+.exclam{
+    position:absolute;
+    left:400px;
+    top:925px;
+}
+
+.exclam1{
+    border-radius: 25px;
+    border: 2px solid #000000;
+    padding: 20px; 
+    width: 10px;
+    height: 158px;  
+    position:absolute; 
+    left:0px; 
+    top:0px;
+    background: #36c;
+background: 
+linear-gradient(115deg, transparent 75%, rgba(255,255,255,.8) 75%) 0 0,
+linear-gradient(245deg, transparent 75%, rgba(255,255,255,.8) 75%) 0 0,
+linear-gradient(115deg, transparent 75%, rgba(255,255,255,.8) 75%) 7px -15px,
+linear-gradient(245deg, transparent 75%, rgba(255,255,255,.8) 75%) 7px -15px,
+#36c;
+background-size: 15px 30px;
+opacity:0.8;
+animation-name: bounceInRight;
+    animation-duration: 3s;
+
+
+}
+
+.exclam2{
+    border-radius: 25px;
+    border: 2px solid #000000;
+    padding: 20px; 
+    width: 10px;
+    height: 30px;  
+    position:absolute; 
+    left:0px; 
+    top:217px;
+    background: #36c;
+background: 
+linear-gradient(115deg, transparent 75%, rgba(255,255,255,.8) 75%) 0 0,
+linear-gradient(245deg, transparent 75%, rgba(255,255,255,.8) 75%) 0 0,
+linear-gradient(115deg, transparent 75%, rgba(255,255,255,.8) 75%) 7px -15px,
+linear-gradient(245deg, transparent 75%, rgba(255,255,255,.8) 75%) 7px -15px,
+#36c;
+background-size: 15px 30px;
+opacity:0.8;
+animation-name: bounceInLeft;
+    animation-duration: 3s;
+
+}
+
+.quote{
+    position:absolute;
+    left:-30px;
+    top:900px;
+}
+.quote1{
+    border-radius: 25px;
+    border: 2px solid #000000;
+    padding: 20px; 
+    width: 10px;
+    height: 30px;  
+    position:absolute; 
+    left:760px; 
+    top:0px;
+    transform: rotate(-20deg);
+    background: linear-gradient(45deg, #dca 12%, transparent 0, transparent 88%, #dca 0),
+    linear-gradient(135deg, transparent 37%, #a85 0, #a85 63%, transparent 0),
+    linear-gradient(45deg, transparent 37%, #dca 0, #dca 63%, transparent 0) #753;
+    background-size: 25px 25px;
+    animation-name: bounceInRight;
+    animation-duration: 3s;
+}
+
+.quote2{
+    border-radius: 25px;
+    border: 2px solid #000000;
+    padding: 20px; 
+    width: 10px;
+    height: 30px;  
+    position:absolute; 
+    left:820px; 
+    top:0px;
+    transform: rotate(-20deg);
+    background: linear-gradient(45deg, #dca 12%, transparent 0, transparent 88%, #dca 0),
+    linear-gradient(135deg, transparent 37%, #a85 0, #a85 63%, transparent 0),
+    linear-gradient(45deg, transparent 37%, #dca 0, #dca 63%, transparent 0) #753;
+    background-size: 25px 25px;
+    animation-name: bounceInLeft;
+    animation-duration: 3s;
+
+}
+
+.quotex{
+    position:absolute;
+    left:1090px;
+    top:900px;
+}
+.quotex1{
+    border-radius: 25px;
+    border: 2px solid #000000;
+    padding: 20px; 
+    width: 10px;
+    height: 30px;  
+    position:absolute; 
+    left:0px; 
+    top:0px;
+    transform: rotate(20deg);
+    background: linear-gradient(315deg, transparent 75%, #d45d55 0)-10px 0,
+    linear-gradient(45deg, transparent 75%, #d45d55 0)-10px 0,
+    linear-gradient(135deg, #a7332b 50%, transparent 0) 0 0,
+    linear-gradient(45deg, #6a201b 50%, #561a16 0) 0 0 #561a16;
+    background-size: 20px 20px;
+    animation-name: bounceInRight;
+    animation-duration: 3s;
+
+}
+
+
+.quotex2{
+    border-radius: 25px;
+    border: 2px solid #000000;
+    padding: 20px; 
+    width: 10px;
+    height: 30px;  
+    position:absolute; 
+    left:60px; 
+    top:0px;
+    transform: rotate(20deg);
+    background: linear-gradient(315deg, transparent 75%, #d45d55 0)-10px 0,
+    linear-gradient(45deg, transparent 75%, #d45d55 0)-10px 0,
+    linear-gradient(135deg, #a7332b 50%, transparent 0) 0 0,
+    linear-gradient(45deg, #6a201b 50%, #561a16 0) 0 0 #561a16;
+    background-size: 20px 20px;
+    animation-name: bounceInLeft;
+    animation-duration: 3s;
+}
+
+.group1{
+    text-align: center;
+    margin: 0 auto;
+    padding:30px;
+    width:50%;
+    top:0px;
+    left:0px;
+    position:absolute;
+}
+
+.group2{
+    text-align: center;
+    margin: 0 auto;
+    padding: 30px;
+    width:50%;
+    top:400px;
+    position:absolute;
+}
+
+.group3{
+    text-align: center;
+    margin: 0 auto;
+    padding: 30px;
+    width:50%;
+    top:800px;
+    position:absolute;
+}
+
+.group4{
+    text-align: center;
+    margin: 0 auto;
+    padding: 30px;
+    width:50%;
+    top:1200px;
+    position:absolute;
+}
+
+.group5{
+    text-align: center;
+    margin: 0 auto;
+    padding: 30px;
+    width:50%;
+    top:1600px;
+    position:absolute;
+}
+
+.group6{
+    text-align: center;
+    margin: 0 auto;
+    padding: 30px;
+    width:50%;
+    top:2000px;
+    position:absolute;
+}
+
+.group7{
+    text-align: center;
+    margin: 0 auto;
+    padding: 30px;
+    width:50%;
+    top:2400px;
+    position:absolute;
+}
+
+.group8{
+    text-align: center;
+    margin: 0 auto;
+    padding: 30px;
+    width:50%;
+    top:2800px;
+    position:absolute;
+}
+
+.group9{
+    text-align: center;
+    margin: 0 auto;
+    padding: 30px;
+    width:50%;
+    top:3200px;
+    position:absolute;
+}
+
+.group10{
+    text-align: center;
+    margin: 0 auto;
+    padding: 30px;
+    width:50%;
+    top:3600px;
+    position:absolute;
+}
+
+.group11{
+    text-align: center;
+    margin: 0 auto;
+    padding: 30px;
+    width:50%;
+    top:4000px;
+    position:absolute;
+}
+
+.group12{
+    text-align: center;
+    margin: 0 auto;
+    padding: 30px;
+    width:50%;
+    top:4500px;
+    position:absolute;
+}
+
+.group13{
+    text-align: center;
+    margin: 0 auto;
+    padding: 30px;
+    width:50%;
+    top:5000px;
+    position:absolute;
+}
+
+.group14{
+    text-align: center;
+    margin: 0 auto;
+    padding: 30px;
+    width:50%;
+    top:4500px;
+    position:absolute;
+    }
