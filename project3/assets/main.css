@@ -1,3 +1,95 @@
 body {
     background-color: white;
+    margin: 0px;
+}
+
+ .fancybox {
+        display: block;
+    }
+
+.bgimg1{
+    position: absolute;
+    background-image: url(img/img0001.png);
+    width: 1440px;
+    height: 1024px;
+}
+
+.bgimg2{
+    position: absolute;
+    background-image: url(img/img0002.png);
+    width: 11313px;
+    height: 1024px;
+}
+
+.bgimg3{
+    position: absolute;
+    background-image: url(img/dog.png);
+    width: 200px;
+    height: 200px;
+    z-index: 10;
+    left:10653px;
+    top:373px;
+    transform: scale(2);
+    opacity:0.2;
+}
+
+.bgimg3:hover{
+    transform: scale(2.25);
+    opacity: 1;
+
+}
+
+.bgimg4{
+    position: absolute;
+    background-image: url(img/dog2.png);
+    width: 125px;
+    height: 91.01px;
+    z-index: 100;
+    left:2584px;
+    top:421px;
+    transform: scale(1.5);
+    filter: grayscale(100%);
+    opacity: 0.70;   
+}
+
+.bgimg4:hover{ 
+    position: absolute;
+    background-image: url(img/dog2.png);
+    width: 125px;
+    height: 91.01px;
+    z-index: 100;
+    left:2584px;
+    top:421px;
+    transform: scale(1.5);
+    filter: grayscale(70%);
+    opacity: 1 
+}
+ }
+
+.dot{
+    position: absolute;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px; 
+    background:yellow;
+    top:350px;
+    left:750px; 
+    opacity: 0.2;
+}
+
+.dot:hover {
+    transform: scale(1.2);
+    opacity: .65;
+}
+
+.dotone{
+    position: absolute;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px; 
+    background:yellow;
+    top:420px;
+    left:2600px; 
+    z-index: 300;
+    opacity: 0.4;
 }

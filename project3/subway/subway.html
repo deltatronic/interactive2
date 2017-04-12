@@ -1,0 +1,93 @@
+    <!DOCTYPE html>
+
+    <title> Keith Haring-Subway </title>
+
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700i,800" rel="stylesheet">
+
+    <link rel="stylesheet" href="../assets/main.css" type="text/css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script type=“text/javascript” src=“assets/js/myjs.js”></script>
+
+    <!-- Add fancyBox -->
+    <link rel="stylesheet" h
+    ref="fancybox/source/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
+    <script type="text/javascript" src="fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+    <link rel="stylesheet" href="fancybox/source/helpers/jquery.fancybox-thumbs.css?v=1.0.7" type="text/css" media="screen" />
+    <script type="text/javascript" src="fancybox/source/helpers/jquery.fancybox-thumbs.js?v=1.0.7"></script>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <script>
+            $(document).ready(function() {
+            
+            $(".various").fancybox({
+                maxWidth    : 800,
+                maxHeight   : 600,
+                fitToView   : false,
+                width       : '70%',
+                height      : '70%',
+                autoSize    : false,
+                closeClick  : false,
+                openEffect  : 'none',
+                closeEffect : 'none',
+                    helpers : {
+                        thumbs  : {
+                            width   : 50,
+                            height  : 50,
+                            source  : function(current) {
+                                return $(current.element).data('thumbnail');
+                            }
+                        }
+                    }
+            });
+
+            $(".addevent").fancybox({
+
+                maxWidth    : 500,
+                maxHeight   : 450,
+                fitToView   : false,
+                width       : '70%',
+                height      : '70%',
+                autoSize    : false,
+                closeClick  : 'none',
+                openEffect  : 'none',
+                closeEffect : 'none',
+                padding     : 0,
+        });
+
+            $(".mood").fancybox({
+
+                maxWidth    : 500,
+                maxHeight   : 450,
+                fitToView   : false,
+                width       : '70%',
+                height      : '70%',
+                autoSize    : false,
+                closeClick  : 'none',
+                openEffect  : 'none',
+                closeEffect : 'none',
+                padding     : 0,
+        });
+    });
+  </script>
+
+    <title>Keith Haring-Subway</title>
+
+    <body>
+
+        <div class="bgimg2"></div>
+       
+      
+
+        <a class="box" href="../assets/img/dog2a.jpg">
+            <div class="bgimg4"></div> 
+        </a>
+       
+
+        <a href="https://www.sfmoma.org/experience/espace/haring/"> <div class="bgimg3"></div> </a>
+      
+         
+   
+
+    </body>
