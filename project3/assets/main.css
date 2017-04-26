@@ -3,9 +3,9 @@ body {
     margin: 0px;
 }
 
- .fancybox {
+/* .fancybox {
         display: block;
-    }
+    }*/
 
 .bgimg1{
     position: absolute;
@@ -18,7 +18,7 @@ body {
     position: absolute;
     background-image: url(img/img0002.png);
     width: 11313px;
-    height: 1024px;
+    height: 804px;
 }
 
 .bgimg3{
@@ -26,12 +26,145 @@ body {
     background-image: url(img/dog.png);
     width: 200px;
     height: 200px;
-    z-index: 10;
+    z-index: 100;
     left:10653px;
     top:373px;
     transform: scale(2);
-    opacity:0.2;
+    opacity:0.6;
 }
+
+.dog1{
+    position: absolute;
+    background-image: url(img/dog.png);
+    width: 200px;
+    height: 200px;
+    z-index: 100;
+    left:10653px;
+    top:573px;
+    transform: scale(0.3);
+    opacity:0.5;
+}
+
+.dog1a{
+    position: absolute;
+    background-image: url(img/dog.png);
+    width: 200px;
+    height: 200px;
+    z-index: 100;
+    left:10703px;
+    top:573px;
+    transform: scale(0.3);
+    opacity:0.5;
+}
+
+.dog1b{
+    position: absolute;
+    background-image: url(img/dog.png);
+    width: 200px;
+    height: 200px;
+    z-index: 100;
+    left:10803px;
+    top:573px;
+    transform: scale(0.3);
+    opacity:0.5;
+}
+
+.dog1d{
+    position: absolute;
+    background-image: url(img/dog.png);
+    width: 200px;
+    height: 200px;
+    z-index: 100;
+    left:10859px;
+    top:573px;
+    transform: scale(0.3);
+    opacity:0.5;
+}
+
+.dog1c{
+    position: absolute;
+    background-image: url(img/dog.png);
+    width: 200px;
+    height: 200px;
+    z-index: 100;
+    left:10538px;
+    top:573px;
+    transform: scale(0.3);
+    opacity:0.5;
+}
+.dog2{
+    position: absolute;
+    background-image: url(img/dog.png);
+    width: 200px;
+    height: 200px;
+    z-index: 100;
+    left:10260px;
+    top:373px;
+    transform: scale(0.5);
+    opacity:0.5;
+}
+
+.dog2a{
+    position: absolute;
+    background-image: url(img/dog.png);
+    width: 200px;
+    height: 200px;
+    z-index: 100;
+    left:10260px;
+    top:478px;
+    transform: scale(0.5);
+    opacity:0.5;
+}
+
+.dog2b{
+    position: absolute;
+    background-image: url(img/dog.png);
+    width: 200px;
+    height: 200px;
+    z-index: 100;
+    left:10260px;
+    top:587px;
+    transform: scale(0.5);
+    opacity:0.5;
+}
+
+.dog3{
+    position: absolute;
+    background-image: url(img/dog.png);
+    width: 200px;
+    height: 200px;
+    z-index: 100;
+    left:11128px;
+    top:373px;
+    transform: scale(0.6);
+    opacity:0.5;
+}
+
+.dog3a{
+    position: absolute;
+    background-image: url(img/dog.png);
+    width: 200px;
+    height: 200px;
+    z-index: 100;
+    left:11128px;
+    top:550px;
+    transform: scale(0.6);
+    opacity:0.5;
+}
+
+.dog3b{
+    position: absolute;
+    background-image: url(img/dog.png);
+    width: 200px;
+    height: 200px;
+    z-index: 100;
+    left:11128px;
+    top:463px;
+    transform: scale(0.6);
+    opacity:0.8;
+}
+
+
 
 .bgimg3:hover{
     transform: scale(2.25);
@@ -41,7 +174,7 @@ body {
 
 .bgimg4{
     position: absolute;
-    background-image: url(img/dog2.png);
+    background-image: url(img/dog2a.png);
     width: 125px;
     height: 91.01px;
     z-index: 100;
@@ -54,7 +187,7 @@ body {
 
 .bgimg4:hover{ 
     position: absolute;
-    background-image: url(img/dog2.png);
+    background-image: url(img/dog2a.png);
     width: 125px;
     height: 91.01px;
     z-index: 100;
@@ -66,21 +199,6 @@ body {
 }
  }
 
-.dot{
-    position: absolute;
-    border-radius: 50%;
-    width: 100px;
-    height: 100px; 
-    background:yellow;
-    top:350px;
-    left:750px; 
-    opacity: 0.2;
-}
-
-.dot:hover {
-    transform: scale(1.2);
-    opacity: .65;
-}
 
 .dotone{
     position: absolute;
@@ -93,3 +211,288 @@ body {
     z-index: 300;
     opacity: 0.4;
 }
+
+.dottwo{
+    position: absolute;
+    z-index: 100;
+    left:150px;
+    top:69px;
+    width:1189px;
+    height:461px;
+    transform: scale(0.1,0.1);
+    background-image:url(img/open1.png); 
+    opacity: 0.5;
+    transition: transform 1s;
+    }
+    
+
+.dottwo:hover { 
+    transform: scale(.4 ,.4);
+    opacity: 1;}
+
+.txtbx0{
+    position: absolute;
+    top: 360px;
+    color: white;
+    line-height: 10px;
+}
+
+.txtbx1{
+    position: absolute;
+    top: 550px;
+    color: white;
+    line-height: 10px;
+}
+
+
+
+
+.txtbx3{
+    position: absolute;
+    top: 450px;
+    color: white;
+    line-height: 10px;
+}
+
+.txtbx4{
+    position: absolute;
+    top: 350px;
+    color: white;
+    line-height: 10px;
+}
+
+.txtbx5{
+    position: absolute;
+    top: 160px;
+    color: white;
+    line-height: 10px;
+}
+
+h1{ 
+    position:absolute;
+    font-size: 80px;
+    color:black;
+    top:-100px;
+}
+
+.p0 {   
+    position: absolute;
+    z-index: 10;
+    left:2570px;
+    top:273px;
+    width:475px;
+    height:357px;
+    transform: scale(0.2,0.2);
+    /*width:125px;
+    height:91px;*/
+    background-image:url(img/p0.jpg); 
+    opacity: 0.8;}
+    /*animation: pulse 3s infinite;
+}
+
+@keyframes pulse {
+    from{transform: scale(0.2,0.2);
+        opacity:0.3;
+
+    }
+    to {
+        transform: scale(0.21,0.21);
+        opacity: 0.8
+    }
+}*/ 
+
+.p0:hover { 
+    transform: scale(1,1);
+    opacity: 1;
+    /*background-image: :url(img/dog2a.jpg);
+    width:475px;
+    height:357px;
+    opacity: 1;
+    z-index: 100;*/
+}
+
+.p1 {   
+    position: absolute;
+    z-index: 100;
+    left:3521px;
+    top:214px;
+    width:349px;
+    height:550px;
+    transform: scale(0.2,0.2);
+    background-image:url(img/p1.jpg); 
+    opacity: 1;}
+
+.p1:hover { 
+    transform: scale(0.9,0.9);
+    opacity: 1;
+}
+
+.p2 {   
+    position: absolute;
+    z-index: 100;
+    left:4496px;
+    top:304px;
+    width:475px;
+    height:353px;
+    transform: scale(0.2,0.2);
+    background-image:url(img/p2.jpg); 
+    opacity: 1;}
+
+.p2:hover { 
+    transform: scale(0.9,0.9);
+    opacity: 1;}
+
+.p3 {   
+    position: absolute;
+    z-index: 100;
+    left:6827px;
+    top:253px;
+    width:313px;
+    height:450px;
+    transform: scale(0.33,0.33);
+    background-image:url(img/p3.jpg); 
+    opacity: 1;}
+
+.p3:hover { 
+    transform: scale(0.7,0.7);
+    opacity: 1;}
+
+.p4 {   
+    position: absolute;
+    z-index: 100;
+    left:7781px;
+    top:364px;
+    width:475px;
+    height:355px;
+    transform: scale(0.18,0.18);
+    background-image:url(img/p4.jpg); 
+    opacity: 1;}
+
+.p4:hover { 
+    transform: scale(0.9,0.9);
+    opacity: 1;
+}
+
+.p5 {   
+    position: absolute;
+    z-index: 100;
+    left:5721px;
+    top:353px;
+    width:720px;
+    height:166px;
+    transform: scale(0.42,0.42);
+    background-image:url(img/p5.jpg); 
+    opacity: 1;}
+
+.p5:hover { 
+    transform: scale(0.9,0.9);
+    opacity: 1;}
+
+.do1 {   
+    position: absolute;
+    z-index: 1000;
+    left:166px;
+    top:420px;
+    width:421px;
+    height:427px;
+    transform: scale(0.4,0.4);
+    background-image:url(img/do1.png); 
+    opacity: 0.8;}
+
+.do1:hover { 
+    transform: scale(0.9,0.9);
+    opacity: 1;
+}
+
+.txtbxdo1{
+    position: absolute;
+    top: 800px;
+    left:200px;
+    color: yellow;
+    line-height: 10px;
+}
+
+
+
+.do2 {   
+    position: absolute;
+    z-index: 1000;
+    left:1529px;
+    top:491px;
+    width:427px;
+    height:421px;
+    transform: scale(0.5,0.5);
+    background-image:url(img/do2.png); 
+    opacity: 0.6;}
+
+.do2:hover { 
+    transform: scale(0.9,0.9);
+    opacity: 1;
+}
+
+.do3 {   
+    position: absolute;
+    z-index: 100;
+    left:2606px;
+    top:466px;
+    width:421px;
+    height:427px;
+    transform: scale(0.08,0.08);
+    background-image:url(img/do3.png); 
+    opacity: 0.5;}
+
+.do3:hover { 
+    transform: scale(0.9,0.9);
+    opacity: 1;
+}
+
+.do4 {   
+    position: absolute;
+    z-index: 100;
+    left:3851px;
+    top:-79px;
+    width:421px;
+    height:427px;
+    transform: scale(0.05,0.05);
+    background-image:url(img/do4.png); 
+    opacity: 0.6;}
+
+.do4:hover { 
+    transform: scale(0.9,0.9);
+    opacity: 1;
+}
+
+.do5 {   
+    position: absolute;
+    z-index: 100;
+    left:5525px;
+    top:273px;
+    width:421px;
+    height:427px;
+    transform: scale(0.05,0.05);
+    background-image:url(img/do5.png); 
+    opacity: 0.4;}
+
+.do5:hover { 
+    transform: scale(0.9,0.9);
+    opacity: 1;
+}
+
+.do6 {   
+    position: absolute;
+    z-index: 100;
+    left:9247px;
+    top:234px;
+    width:421px;
+    height:427px;
+    transform: scale(0.05,0.05);
+    background-image:url(img/do6.png); 
+    opacity: 0.4;}
+
+.do6:hover { 
+    transform: scale(0.9,0.9);
+    opacity: 1;
+}
+
+
+
