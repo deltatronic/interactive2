@@ -1,5 +1,4 @@
 body {
-    font-family: 'Coming Soon',
     background-color: white;
     margin: 0px;
     height: 100%;
@@ -23,6 +22,19 @@ body {
     width: 11313px;
     height: 768px;
 }
+
+.sfmomalogo{
+    position: absolute;
+    background-image: url(img/sfmomalogo.png);
+    width: 1000px;
+    height: 400px;
+    z-index: 100;
+    left:10273px;
+    transform: scale(.2);
+    top:150px;
+    opacity: 0.3
+}
+
 
 .bgimg3{
     position: absolute;
@@ -277,6 +289,7 @@ body {
 h1{
     font-size: 18px;
 }
+
 .p0 {   
     position: absolute;
     z-index: 10;
@@ -415,18 +428,18 @@ h1{
 }
 
 .do1:hover .txtbxdo1{ 
-    opacity: 1;
+    opacity: 0.7;
 }
 
 .txtbxdo1{
     position: absolute;
-    top: -20px;
-    left:300px;
-    width:350px;
-    height:90px;
+    top: -80px;
+    left:350px;
+    width:650px;
+    height:200px;
     color: gold ;
-    line-height: 100px;
-    font-size:50pt;
+    line-height: 50px;
+    font-size:40pt;
     background-color:black;
     opacity: 0;
     transition: all 1s;
@@ -442,7 +455,7 @@ h1{
     height:421px;
     transform: scale(0.1,0.1);
     background-image:url(img/do2.png); 
-    opacity: 0.4;
+    opacity: 0.6;
     transition: transform 1s;
     }
 
@@ -452,18 +465,18 @@ h1{
 }
 
 .do2:hover .txtbxdo2{ 
-    opacity: 1;
+    opacity: 0.7;
 }
 
 .txtbxdo2{
     position: absolute;
     top: 0px;
     left:420px;
-    width:700px;
-    height:80px;
+    width:880px;
+    height:270px;
     color: gold;
-    line-height:50px;
-    font-size:15pt;
+    line-height:80px;
+    font-size:50pt;
     background-color:black;
     opacity: 0;
     transition: all 1s;
@@ -475,7 +488,7 @@ h1{
     z-index: 100;
     left:7586px;
     top:50px;
-    width:421px;
+    width:480px;
     height:427px;
     transform: scale(0.15,0.15);
     background-image:url(img/do3.png); 
@@ -494,14 +507,13 @@ h1{
 
 .txtbxdo3{
     position: absolute;
-    top: -20px;
-    left:-240px;
+    top: 0px;
+    left:-500px;
     width:500px;
     color: gold ;
-    line-height: 60px;
-    font-size:10pt;
-    background-color:black;
-    opacity: 0;
+    line-height: 50px;
+    font-size:30pt;
+     opacity: 0;
     transition: all 1s;}
 
 .do4 {   
@@ -528,15 +540,14 @@ h1{
 
 .txtbxdo4{
     position: absolute;
-    top: 280px;
+    top: 350px;
     font-size:10px
     left:950px;
-    width:600px;
+    width:650px;
     color: gold ;
     line-height: 50px;
-    font-size:15px;
-    background-color:black;
-    opacity: 0;
+    font-size:50px;
+     opacity: 0;
     transition: all 1s;
 }
 
@@ -549,7 +560,7 @@ h1{
     height:427px;
     transform: scale(0.15,0.15);
     background-image:url(img/do5.png); 
-    opacity: 0.6;
+    opacity: 0.5;
     transition: transform 1s;
     }
 
@@ -564,15 +575,15 @@ h1{
 
 .txtbxdo5{
     position: absolute;
-    top: 0px;
-    left:300px;
-    width:250px;
+    top: -100px;
+    left:100px;
+    width:450px;
     color: gold ;
-    line-height:10px;
-    font-size:15px;
-    background-color:black;
-    opacity: 0;
+    line-height:50px;
+    font-size:50px;
+     opacity: 0;
     transition: all 1s;
+
 
 }
 
@@ -601,12 +612,11 @@ h1{
 .txtbxdo6{
     position: absolute;
     top: -20px;
-    left:-300px;
-    width:450px;
+    left:-450px;
+    width:580px;
     color: gold;
     line-height:60px;
-    font-size:15px;
-    background-color:black;
+    font-size:50px;
     opacity: 0;
     transition: all 1s;
 }
